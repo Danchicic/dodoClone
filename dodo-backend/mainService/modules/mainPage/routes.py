@@ -4,12 +4,12 @@ from typing import Optional
 
 from fastapi import APIRouter, status, HTTPException
 
-from mainService.modules.mainPage import schemas
-from mainService.redis_utils import get_redis
+from modules.mainPage import schemas
+from redis_utils import get_redis
+from .utils import REGIONS
 
 logger = logging.getLogger(__file__)
 router = APIRouter()
-REGIONS = ["moscow", "spb", "other"]
 
 
 @router.get('/products/{region_id}', response_model=Optional[list[schemas.Pizza]])
@@ -23,7 +23,7 @@ async def get_all_pizzas(
 
 @router.get("/regions")
 async def get_regions() -> list[schemas.Region]:
-    return [schemas.Region(id=i, name=el) for i, el in enumerate(REGIONS, 1)]
+    return [schemas.Region(id=i, name=el_dict['name'], slug=el_dict['slug']) for i, el_dict in enumerate(REGIONS, 1)]
 
 
 @router.post("/products/{region_id}")
