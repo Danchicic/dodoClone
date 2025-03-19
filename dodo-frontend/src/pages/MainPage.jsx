@@ -1,7 +1,9 @@
-import React, {useEffect} from 'react';
+import React, {useEffect, useState} from 'react';
 import {useParams, useNavigate} from "react-router-dom";
 import {useDispatch, useSelector} from "react-redux";
-import { setRegion } from "../redux/regionSlice";
+import {setRegion} from "../redux/regionSlice";
+import PizzaApi from "../api/PizzaApi.js";
+import PizzasView from "../components/PizzasView.jsx";
 
 const MainPage = () => {
     const params = useParams();
@@ -9,19 +11,41 @@ const MainPage = () => {
     const dispatch = useDispatch();
     const selectedRegion = useSelector((state) => state.region);
     const route = useNavigate();
+    const [pizzas, setPizzas] = useState([]);
+    useEffect(() => {
+        PizzaApi.get_all(userRegion).then(
+            (res) => {
+                if (res.status === 200) {
+                    res.json().then(
+                        (data) => {
+                            if (data) {
+                                setPizzas(data)
+                            }
+                        }
+                    )
+                }
+            }
+        )
+    }, []);
+
     useEffect(() => {
         if (userRegion && userRegion !== selectedRegion) {
             dispatch(setRegion(userRegion));
-        }else if (!userRegion && selectedRegion) {
+        } else if (!userRegion && selectedRegion) {
             route(`/${selectedRegion}`)
         }
     }, [])
     return (
-        <div className="flex align-bottom justify-center">
-            <h1 className="text-lg">
-                Your region is {userRegion}
+        <>
+            <h1
+                className="text-5xl flex justify-center"
+            >
+                Pizza's
             </h1>
-        </div>
+            <PizzasView pizzas={pizzas}/>
+        </>
+
+
     );
 };
 
