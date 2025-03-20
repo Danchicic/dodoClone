@@ -1,0 +1,1950 @@
+{
+    "0": {
+        "title": "Чилл Грилл",
+        "ingredients": [
+            "Цыпленок",
+            "маринованные огурчики",
+            "красный лук",
+            "соус гриль",
+            "моцарелла",
+            "чеснок",
+            "фирменный соус альфредо"
+        ],
+        "picture": "https://media.dodostatic.net/image/r:292x292/11ee7d612fc7b7fca5be822752bee1e5.jpg"
+    },
+    "1": {
+        "title": "Баварская",
+        "ingredients": [
+            "Баварские колбаски",
+            "маринованные огурчики",
+            "красный лук",
+            "томаты",
+            "горчичный соус",
+            "моцарелла",
+            "фирменный томатный соус"
+        ],
+        "picture": "https://media.dodostatic.net/image/r:292x292/11ee7e219680b50b85ad6f6813ea1902.jpg"
+    },
+    "2": {
+        "title": "Мясной микс с говядиной и колбасками",
+        "ingredients": [
+            "Пряная говядина",
+            "баварские колбаски",
+            "пикантная пепперони",
+            "бекон",
+            "моцарелла и фирменный томатный соус"
+        ],
+        "picture": "https://media.dodostatic.net/image/r:292x292/01959618077b7889a6837ec69a751b97.jpg"
+    },
+    "3": {
+        "title": "Бефстроганов",
+        "ingredients": [
+            "Пряная говядина",
+            "шампиньоны",
+            "ароматный грибной соус",
+            "маринованные огурчики",
+            "моцарелла",
+            "красный лук",
+            "фирменный соус альфредо"
+        ],
+        "picture": "https://media.dodostatic.net/image/r:292x292/019591c69fac7921a27e4ecd8c99f9df.jpg"
+    },
+    "4": {
+        "title": "Креветки со сладким чили",
+        "ingredients": [
+            "Креветки",
+            "ананасы",
+            "соус сладкий чили",
+            "сладкий перец",
+            "моцарелла",
+            "фирменный соус альфредо"
+        ],
+        "picture": "https://media.dodostatic.net/image/r:292x292/019591a2e222794a81731c99f3cc34ec.jpg"
+    },
+    "5": {
+        "title": "Пицца из половинок",
+        "ingredients": [
+            "Два вкуса в одной пицце 35 см"
+        ],
+        "picture": "https://media.dodostatic.net/image/r:292x292/0194d4f6904975a5a6427e297591980d.jpg"
+    },
+    "6": {
+        "title": "Сырная",
+        "ingredients": [
+            "Моцарелла",
+            "сыры чеддер и пармезан",
+            "фирменный соус альфредо"
+        ],
+        "picture": "https://media.dodostatic.net/image/r:292x292/01953ced168c758399984df8561623a3.jpg"
+    },
+    "7": {
+        "title": "Пепперони фреш",
+        "ingredients": [
+            "Пикантная пепперони",
+            "увеличенная порция моцареллы",
+            "томаты",
+            "фирменный томатный соус"
+        ],
+        "picture": "https://media.dodostatic.net/image/r:292x292/0194d4fd39bb7352bfa5de2219e88b9b.jpg"
+    },
+    "8": {
+        "title": "Двойной цыпленок",
+        "ingredients": [
+            "Цыпленок",
+            "моцарелла",
+            "фирменный соус альфредо"
+        ],
+        "picture": "https://media.dodostatic.net/image/r:292x292/11ee7d61bb2bd856bd5dfd71fb7d4210.jpg"
+    },
+    "9": {
+        "title": "Ветчина и сыр",
+        "ingredients": [
+            "Ветчина",
+            "моцарелла",
+            "фирменный соус альфредо"
+        ],
+        "picture": "https://media.dodostatic.net/image/r:292x292/11ee7d610d2925109ab2e1c92cc5383c.jpg"
+    },
+    "10": {
+        "title": "Чоризо фреш",
+        "ingredients": [
+            "Острые колбаски чоризо",
+            "сладкий перец",
+            "моцарелла",
+            "фирменный томатный соус"
+        ],
+        "picture": "https://media.dodostatic.net/image/r:292x292/11ee7d612fc7b7fca5be822752bee1e5.jpg"
+    },
+    "11": {
+        "title": "Ветчина и грибы",
+        "ingredients": [
+            "Ветчина",
+            "шампиньоны",
+            "увеличенная порция моцареллы",
+            "фирменный томатный соус"
+        ],
+        "picture": "https://media.dodostatic.net/image/r:292x292/11ee7d614cbe0530b7234b6d7a6e5f8e.jpg"
+    },
+    "12": {
+        "title": "Аррива!",
+        "ingredients": [
+            "Цыпленок",
+            "острые колбаски чоризо",
+            "соус бургер",
+            "сладкий перец",
+            "красный лук",
+            "томаты",
+            "моцарелла",
+            "соус ранч",
+            "чеснок"
+        ],
+        "picture": "https://media.dodostatic.net/image/r:292x292/11ee7d60fda22358ac33c6a44eb093a2.jpg"
+    },
+    "13": {
+        "title": "Карбонара",
+        "ingredients": [
+            "Бекон",
+            "сыры чеддер и пармезан",
+            "моцарелла",
+            "томаты",
+            "красный лук",
+            "чеснок",
+            "фирменный соус альфредо",
+            "итальянские травы"
+        ],
+        "picture": "https://media.dodostatic.net/image/r:292x292/11ee7d61706d472f9a5d71eb94149304.jpg"
+    },
+    "14": {
+        "title": "Жюльен",
+        "ingredients": [
+            "Цыпленок",
+            "шампиньоны",
+            "ароматный грибной соус",
+            "лук",
+            "сухой чеснок",
+            "моцарелла",
+            "смесь сыров чеддер и пармезан",
+            "фирменный соус альфредо"
+        ],
+        "picture": "https://media.dodostatic.net/image/r:292x292/11ef5b10b39bbbbda9f8c4e4ff1b067c.jpg"
+    },
+    "15": {
+        "title": "Додо микс",
+        "ingredients": [
+            "Бекон",
+            "цыпленок",
+            "ветчина",
+            "сыры чеддер и пармезан",
+            "соус песто",
+            "кубики брынзы",
+            "томаты",
+            "красный лук",
+            "моцарелла",
+            "фирменный соус альфредо",
+            "чеснок",
+            "итальянские травы"
+        ],
+        "picture": "https://media.dodostatic.net/image/r:292x292/019591a0591d7642b97bf6ed6da45252.jpg"
+    },
+    "16": {
+        "title": "Мясная",
+        "ingredients": [
+            "Цыпленок",
+            "ветчина",
+            "пикантная пепперони",
+            "острые колбаски чоризо",
+            "моцарелла",
+            "фирменный томатный соус"
+        ],
+        "picture": "https://media.dodostatic.net/image/r:292x292/019591b13a1a724b90092c16d9b1c05a.jpg"
+    },
+    "17": {
+        "title": "Бургер-пицца",
+        "ingredients": [
+            "Ветчина",
+            "маринованные огурчики",
+            "томаты",
+            "красный лук",
+            "чеснок",
+            "соус бургер",
+            "моцарелла",
+            "фирменный томатный соус"
+        ],
+        "picture": "https://media.dodostatic.net/image/r:292x292/11ee7d6175c10773bfe36e56d48df7e3.jpg"
+    },
+    "18": {
+        "title": "Сырный цыпленок",
+        "ingredients": [
+            "Цыпленок",
+            "моцарелла",
+            "сыры чеддер и пармезан",
+            "сырный соус",
+            "томаты",
+            "фирменный соус альфредо",
+            "чеснок"
+        ],
+        "picture": "https://media.dodostatic.net/image/r:292x292/019591ad0f3272b384fad50fd9912e24.jpg"
+    },
+    "19": {
+        "title": "Додо",
+        "ingredients": [
+            "Бекон",
+            "митболы",
+            "пикантная пепперони",
+            "моцарелла",
+            "томаты",
+            "шампиньоны",
+            "сладкий перец",
+            "красный лук",
+            "чеснок",
+            "фирменный томатный соус"
+        ],
+        "picture": "https://media.dodostatic.net/image/r:292x292/11ee7d6108e3a1c9952cd3a7f39a4d02.jpg"
+    },
+    "20": {
+        "title": "Пепперони",
+        "ingredients": [
+            "Пикантная пепперони",
+            "увеличенная порция моцареллы",
+            "фирменный томатный соус"
+        ],
+        "picture": "https://media.dodostatic.net/image/r:292x292/11ee7d61698827ee9b8db6d0aec53410.jpg"
+    },
+    "21": {
+        "title": "Гавайская",
+        "ingredients": [
+            "Двойная порция цыпленка",
+            "ананасы",
+            "моцарелла",
+            "фирменный соус альфредо"
+        ],
+        "picture": "https://media.dodostatic.net/image/r:292x292/11ee7d610e8bbb248f31270be742b4bd.jpg"
+    },
+    "22": {
+        "title": "Цыпленок барбекю",
+        "ingredients": [
+            "Цыпленок",
+            "бекон",
+            "соус барбекю",
+            "красный лук",
+            "моцарелла",
+            "фирменный томатный соус"
+        ],
+        "picture": "https://media.dodostatic.net/image/r:292x292/019591a8006370038e0a9fb3e94925d1.jpg"
+    },
+    "23": {
+        "title": "Цыпленок Ранч",
+        "ingredients": [
+            "Цыпленок",
+            "ветчина",
+            "соус ранч",
+            "моцарелла",
+            "томаты",
+            "чеснок",
+            "фирменный соус альфредо"
+        ],
+        "picture": "https://media.dodostatic.net/image/r:292x292/11ee7d610a62d78598406363a9a8ad65.jpg"
+    },
+    "24": {
+        "title": "Маргарита",
+        "ingredients": [
+            "Увеличенная порция моцареллы",
+            "томаты",
+            "итальянские травы",
+            "фирменный томатный соус"
+        ],
+        "picture": "https://media.dodostatic.net/image/r:292x292/11ee7d617e9339cfb185921a343ad8fd.jpg"
+    },
+    "25": {
+        "title": "Диабло ",
+        "ingredients": [
+            "Острые колбаски чоризо",
+            "острый перец халапеньо",
+            "соус барбекю",
+            "митболы из говядины",
+            "томаты",
+            "сладкий перец",
+            "красный лук",
+            "моцарелла",
+            "фирменный томатный соус"
+        ],
+        "picture": "https://media.dodostatic.net/image/r:292x292/11ee7d6110059795842d40396bcf1e73.jpg"
+    },
+    "26": {
+        "title": "Соберите свою пиццу",
+        "ingredients": [
+            "В основе пиццы увеличенная порция моцареллы и фирменный томатный соус",
+            "а другие ингредиенты можно выбрать на свой вкус"
+        ],
+        "picture": "https://media.dodostatic.net/image/r:292x292/11ef4feddf588b4ea7493ba40fdf934c.jpg"
+    },
+    "27": {
+        "title": "Колбаски барбекю",
+        "ingredients": [
+            "Острые колбаски чоризо",
+            "соус барбекю",
+            "томаты",
+            "красный лук",
+            "моцарелла",
+            "фирменный томатный соус"
+        ],
+        "picture": "https://media.dodostatic.net/image/r:292x292/11ee7d6105ef6690b86fbde6150b5b0c.jpg"
+    },
+    "28": {
+        "title": "Двойная пепперони",
+        "ingredients": [
+            "Двойная порция пикантной пепперони",
+            "увеличенная порция моцареллы",
+            "фирменный томатный соус"
+        ],
+        "picture": "https://media.dodostatic.net/image/r:292x292/11ee7d6149eb101d8727573088fa2eff.jpg"
+    },
+    "29": {
+        "title": "Песто",
+        "ingredients": [
+            "Цыпленок",
+            "соус песто",
+            "кубики брынзы",
+            "томаты",
+            "моцарелла",
+            "фирменный соус альфредо"
+        ],
+        "picture": "https://media.dodostatic.net/image/r:292x292/11ee7d616b6eac0d9d1151039f788394.jpg"
+    },
+    "30": {
+        "title": "Четыре сезона",
+        "ingredients": [
+            "Увеличенная порция моцареллы",
+            "ветчина",
+            "пикантная пепперони",
+            "кубики брынзы",
+            "томаты",
+            "шампиньоны",
+            "итальянские травы",
+            "фирменный томатный соус"
+        ],
+        "picture": "https://media.dodostatic.net/image/r:292x292/11ee7d6150d498419e133df19945a00d.jpg"
+    },
+    "31": {
+        "title": "Овощи и грибы",
+        "ingredients": [
+            "Шампиньоны",
+            "томаты",
+            "сладкий перец",
+            "красный лук",
+            "кубики брынзы",
+            "моцарелла",
+            "фирменный томатный соус",
+            "итальянские травы"
+        ],
+        "picture": "https://cdn.dodostatic.net/pizza-site/dist/assets/989b4d97e5e5e36eddbd..svg"
+    },
+    "32": {
+        "title": "Неизведанное комбо",
+        "ingredients": [
+            "Открывайте новые вкусы и горизонты! В комбо — две оригинальные пиццы",
+            "два напитка и шанс выиграть путешествие"
+        ],
+        "picture": "https://cdn.dodostatic.net/pizza-site/dist/assets/989b4d97e5e5e36eddbd..svg"
+    },
+    "33": {
+        "title": "Додо Бокс",
+        "ingredients": [
+            "Набор юного космонавта",
+            "который легко настроить по вкусу ребенка: две закуски и напиток на выбор. В каждом комбо игрушка",
+            "а в нашем приложении игра-компаньон"
+        ],
+        "picture": "https://cdn.dodostatic.net/pizza-site/dist/assets/989b4d97e5e5e36eddbd..svg"
+    },
+    "34": {
+        "title": "Чикен бокс",
+        "ingredients": [
+            "Картошка без курицы",
+            "как курица без картошки — лучше вместе. Выбирайте куриные наггетсы",
+            "кусочки или крылья барбекю и заказывайте сразу в комбо с пряной картошечкой и соусом"
+        ],
+        "picture": "https://cdn.dodostatic.net/pizza-site/dist/assets/989b4d97e5e5e36eddbd..svg"
+    },
+    "35": {
+        "title": "Завтрак на двоих",
+        "ingredients": [
+            "Горячий завтрак для двоих. 2 закуски из подборки и 2 напитка на выбор"
+        ],
+        "picture": "https://cdn.dodostatic.net/pizza-site/dist/assets/989b4d97e5e5e36eddbd..svg"
+    },
+    "36": {
+        "title": "Четыре в одном",
+        "ingredients": [
+            "Если хочется всего понемногу. Маленькая пицца",
+            "закуска",
+            "напиток и соус. Цена комбо зависит от выбранных продуктов и может быть увеличена"
+        ],
+        "picture": "https://cdn.dodostatic.net/pizza-site/dist/assets/989b4d97e5e5e36eddbd..svg"
+    },
+    "37": {
+        "title": "3 пиццы 25 см",
+        "ingredients": [
+            "Настоящая дегустация. Три маленькие пиццы по суперцене. Цена комбо зависит от выбранных пицц и может быть увеличена"
+        ],
+        "picture": "https://cdn.dodostatic.net/pizza-site/dist/assets/989b4d97e5e5e36eddbd..svg"
+    },
+    "38": {
+        "title": "2 пиццы",
+        "ingredients": [
+            "Парочка что надо. 2 средние пиццы. Цена комбо зависит от выбранных пицц и может быть увеличена"
+        ],
+        "picture": "https://cdn.dodostatic.net/pizza-site/dist/assets/989b4d97e5e5e36eddbd..svg"
+    },
+    "39": {
+        "title": "3 пиццы 30 см",
+        "ingredients": [
+            "Три удовольствия в нашем меню — это 3 средние пиццы на ваш выбор. Цена комбо зависит от выбранных пицц и может быть увеличена"
+        ],
+        "picture": "https://cdn.dodostatic.net/pizza-site/dist/assets/989b4d97e5e5e36eddbd..svg"
+    },
+    "40": {
+        "title": "3 пиццы 35 см",
+        "ingredients": [
+            "3 Большие пиццы на ваш выбор. Цена комбо зависит от выбранных пицц и может быть увеличена"
+        ],
+        "picture": "https://cdn.dodostatic.net/pizza-site/dist/assets/989b4d97e5e5e36eddbd..svg"
+    },
+    "41": {
+        "title": "2 пиццы и напиток",
+        "ingredients": [
+            "Для уютных посиделок. 2 маленькие пиццы и напиток на выбор. Для компании из 2-4 человек. Цена комбо зависит от выбранных продуктов и может быть увеличена"
+        ],
+        "picture": "https://cdn.dodostatic.net/pizza-site/dist/assets/989b4d97e5e5e36eddbd..svg"
+    },
+    "42": {
+        "title": "4 Закуски",
+        "ingredients": [
+            "Сытный квартет для маленькой компании. Комбо из четырех закусок на выбор"
+        ],
+        "picture": "https://cdn.dodostatic.net/pizza-site/dist/assets/989b4d97e5e5e36eddbd..svg"
+    },
+    "43": {
+        "title": "5 пицц",
+        "ingredients": [
+            "5 причин сделать вечеринку вкуснее. 5 средних пицц для компании из 10–15 человек. Цена комбо зависит от выбранных пицц и может быть увеличена"
+        ],
+        "picture": "https://cdn.dodostatic.net/pizza-site/dist/assets/989b4d97e5e5e36eddbd..svg"
+    },
+    "44": {
+        "title": "7 пицц",
+        "ingredients": [
+            "7 — счастливое число",
+            "особенно если речь о 7 средних пиццах на компанию 15-20 человек. Цена комбо зависит от выбранных пицц и может быть увеличена"
+        ],
+        "picture": "https://cdn.dodostatic.net/pizza-site/dist/assets/989b4d97e5e5e36eddbd..svg"
+    },
+    "45": {
+        "title": "10 пицц",
+        "ingredients": [
+            "Великолепная десятка. 10 средних пицц на любой вкус. Для компании из 20-30 человек. Цена комбо зависит от выбранных пицц и может быть увеличена"
+        ],
+        "picture": "https://cdn.dodostatic.net/pizza-site/dist/assets/989b4d97e5e5e36eddbd..svg"
+    },
+    "46": {
+        "title": "2 фирменные закуски",
+        "ingredients": [
+            "Закажите два любимых Додстера или попробуйте разные Дэнвичи. А еще можно объединить со Стартером. Любые комбинации из двух закусок — выбирайте",
+            "как вам вкусно"
+        ],
+        "picture": "https://cdn.dodostatic.net/pizza-site/dist/assets/989b4d97e5e5e36eddbd..svg"
+    },
+    "47": {
+        "title": "2 десерта",
+        "ingredients": [
+            "Тут",
+            "как ни крути",
+            "выйдет сладкая парочка. Хотите — два маффина",
+            "а хотите — составьте ваш собственный дуэт из других десертов"
+        ],
+        "picture": "https://cdn.dodostatic.net/pizza-site/dist/assets/989b4d97e5e5e36eddbd..svg"
+    },
+    "48": {
+        "title": "2 кофе: Латте или Капучино",
+        "ingredients": [
+            "Отличная возможность проверить",
+            "где молочная пенка вкуснее — в латте или в капучино?"
+        ],
+        "picture": "https://cdn.dodostatic.net/pizza-site/dist/assets/989b4d97e5e5e36eddbd..svg"
+    },
+    "49": {
+        "title": "2 напитка",
+        "ingredients": [
+            "Одним словом — литр. Выберите две бутылочки на свой вкус: газировку Добрый или холодный чай Rich"
+        ],
+        "picture": "https://cdn.dodostatic.net/pizza-site/dist/assets/989b4d97e5e5e36eddbd..svg"
+    },
+    "50": {
+        "title": "2 соуса",
+        "ingredients": [
+            "Комбинируйте пары соусов для ярких перекусов"
+        ],
+        "picture": "https://cdn.dodostatic.net/pizza-site/dist/assets/989b4d97e5e5e36eddbd..svg"
+    },
+    "51": {
+        "title": "Додстер Чилл Грилл",
+        "ingredients": [
+            "Горячая закуска с цыпленком и соусом гриль с луком",
+            "маринованными огурчиками и моцареллой в тонкой пшеничной лепешке"
+        ],
+        "picture": "https://cdn.dodostatic.net/pizza-site/dist/assets/989b4d97e5e5e36eddbd..svg"
+    },
+    "52": {
+        "title": "Баварский ланчбокс",
+        "ingredients": [
+            "Горячий сытный обед из баварских колбасок",
+            "картофеля из печи и горчичного соуса"
+        ],
+        "picture": "https://cdn.dodostatic.net/pizza-site/dist/assets/989b4d97e5e5e36eddbd..svg"
+    },
+    "53": {
+        "title": "Креветки",
+        "ingredients": [
+            "Цельные креветки в хрустящей панировке"
+        ],
+        "picture": "https://cdn.dodostatic.net/pizza-site/dist/assets/989b4d97e5e5e36eddbd..svg"
+    },
+    "54": {
+        "title": "Соберите свой омлет",
+        "ingredients": [
+            "Ваш фирменный рецепт на основе горячего омлета из печи с томатами и моцареллой",
+            "Добавляйте начинку по вкусу",
+            "но в меру: больше 4-5 ингредиентов уже не поместятся."
+        ],
+        "picture": "https://cdn.dodostatic.net/pizza-site/dist/assets/989b4d97e5e5e36eddbd..svg"
+    },
+    "55": {
+        "title": "Омлет с томатами в пите",
+        "ingredients": [
+            "Легкий и питательный завтрак: омлет из печи с томатами и моцареллой в пшеничной пите. Удобно брать с собой"
+        ],
+        "picture": "https://cdn.dodostatic.net/pizza-site/dist/assets/989b4d97e5e5e36eddbd..svg"
+    },
+    "56": {
+        "title": "Омлет с ветчиной и грибами в пите  ",
+        "ingredients": [
+            "Горячий сытный омлет с поджаристой корочкой",
+            "ветчина",
+            "шампиньоны и моцарелла в пшеничной пите. Удобно взять с собой"
+        ],
+        "picture": "https://cdn.dodostatic.net/pizza-site/dist/assets/989b4d97e5e5e36eddbd..svg"
+    },
+    "57": {
+        "title": "Омлет с беконом в пите",
+        "ingredients": [
+            "Горячий сытный омлет с поджаристой корочкой",
+            "бекон",
+            "моцарелла и томаты в пшеничной пите. Удобно взять с собой"
+        ],
+        "picture": "https://cdn.dodostatic.net/pizza-site/dist/assets/989b4d97e5e5e36eddbd..svg"
+    },
+    "58": {
+        "title": "Омлет с пепперони в пите",
+        "ingredients": [
+            "Для тех",
+            "кто не пропускает завтраки — омлет с поджаристой корочкой",
+            "пикантная пепперони",
+            "томаты и моцарелла в пшеничной пите. Удобно взять с собой"
+        ],
+        "picture": "https://cdn.dodostatic.net/pizza-site/dist/assets/989b4d97e5e5e36eddbd..svg"
+    },
+    "59": {
+        "title": "Омлет сырный в пите",
+        "ingredients": [
+            "Вариант завтрака в пшеничной пите с омлетом с поджаристой корочкой",
+            "моцареллой",
+            "кубиками брынзы",
+            "сырами чеддер и пармезан. Удобно взять с собой"
+        ],
+        "picture": "https://cdn.dodostatic.net/pizza-site/dist/assets/989b4d97e5e5e36eddbd..svg"
+    },
+    "60": {
+        "title": "Омлет с томатами",
+        "ingredients": [
+            "Легкий и питательный завтрак: омлет из печи с томатами и моцареллой"
+        ],
+        "picture": "https://cdn.dodostatic.net/pizza-site/dist/assets/989b4d97e5e5e36eddbd..svg"
+    },
+    "61": {
+        "title": "Омлет с ветчиной и грибами",
+        "ingredients": [
+            "Горячий сытный омлет с поджаристой корочкой",
+            "ветчина",
+            "шампиньоны и моцарелла"
+        ],
+        "picture": "https://cdn.dodostatic.net/pizza-site/dist/assets/989b4d97e5e5e36eddbd..svg"
+    },
+    "62": {
+        "title": "Омлет с беконом",
+        "ingredients": [
+            "Классическое сочетание горячего омлета с поджаристой корочкой и бекона с добавлением моцареллы и томатов на завтрак"
+        ],
+        "picture": "https://cdn.dodostatic.net/pizza-site/dist/assets/989b4d97e5e5e36eddbd..svg"
+    },
+    "63": {
+        "title": "Омлет с пепперони",
+        "ingredients": [
+            "Сытный и сбалансированный завтрак — омлет с поджаристой корочкой",
+            "пикантная пепперони",
+            "томаты и моцарелла"
+        ],
+        "picture": "https://cdn.dodostatic.net/pizza-site/dist/assets/989b4d97e5e5e36eddbd..svg"
+    },
+    "64": {
+        "title": "Омлет сырный",
+        "ingredients": [
+            "Горячий завтрак из омлета с поджаристой корочкой",
+            "моцарелла",
+            "кубики брынзы",
+            "сыры чеддер и пармезан"
+        ],
+        "picture": "https://cdn.dodostatic.net/pizza-site/dist/assets/989b4d97e5e5e36eddbd..svg"
+    },
+    "65": {
+        "title": "Дэнвич с говядиной",
+        "ingredients": [
+            "Хрустящая чиабатта с ароматной пряной говядиной и цыпленком с соусами бургер и барбекю",
+            "свежими томатами и моцареллой"
+        ],
+        "picture": "https://cdn.dodostatic.net/pizza-site/dist/assets/989b4d97e5e5e36eddbd..svg"
+    },
+    "66": {
+        "title": "Дэнвич ветчина и сыр",
+        "ingredients": [
+            "Поджаристая чиабатта и знакомое сочетание ветчины",
+            "цыпленка",
+            "моцареллы со свежими томатами",
+            "соусом ранч и чесноком"
+        ],
+        "picture": "https://cdn.dodostatic.net/pizza-site/dist/assets/989b4d97e5e5e36eddbd..svg"
+    },
+    "67": {
+        "title": "Дэнвич чоризо барбекю",
+        "ingredients": [
+            "Насыщенный вкус острых колбасок чоризо и пикантной пепперони с соусами бургер и барбекю",
+            "свежими томатами",
+            "маринованными огурчиками",
+            "моцареллой и луком в румяной чиабатте"
+        ],
+        "picture": "https://cdn.dodostatic.net/pizza-site/dist/assets/989b4d97e5e5e36eddbd..svg"
+    },
+    "68": {
+        "title": "Паста с креветками",
+        "ingredients": [
+            "Паста из печи с креветками",
+            "томатами",
+            "моцареллой",
+            "соусом альфредо и чесноком"
+        ],
+        "picture": "https://cdn.dodostatic.net/pizza-site/dist/assets/989b4d97e5e5e36eddbd..svg"
+    },
+    "69": {
+        "title": "Паста Карбонара",
+        "ingredients": [
+            "Паста из печи с беконом",
+            "сырами чеддер и пармезан",
+            "томатами",
+            "моцареллой",
+            "фирменным соусом альфредо и чесноком"
+        ],
+        "picture": "https://cdn.dodostatic.net/pizza-site/dist/assets/989b4d97e5e5e36eddbd..svg"
+    },
+    "70": {
+        "title": "Паста Песто",
+        "ingredients": [
+            "Паста из печи с соусом песто",
+            "цыпленком",
+            "томатами",
+            "моцареллой и фирменным томатным соусом"
+        ],
+        "picture": "https://cdn.dodostatic.net/pizza-site/dist/assets/989b4d97e5e5e36eddbd..svg"
+    },
+    "71": {
+        "title": "Супермясной Додстер",
+        "ingredients": [
+            "Горячая закуска с цыпленком",
+            "моцареллой",
+            "митболами",
+            "острыми колбасками чоризо и соусом бургер в тонкой пшеничной лепешке"
+        ],
+        "picture": "https://cdn.dodostatic.net/pizza-site/dist/assets/989b4d97e5e5e36eddbd..svg"
+    },
+    "72": {
+        "title": "Додстер с ветчиной",
+        "ingredients": [
+            "Горячий завтрак с ветчиной",
+            "томатами",
+            "моцареллой",
+            "соусом ранч в тонкой пшеничной лепешке"
+        ],
+        "picture": "https://cdn.dodostatic.net/pizza-site/dist/assets/989b4d97e5e5e36eddbd..svg"
+    },
+    "73": {
+        "title": "Додстер",
+        "ingredients": [
+            "Легендарная горячая закуска с цыпленком",
+            "томатами",
+            "моцареллой",
+            "соусом ранч в тонкой пшеничной лепешке"
+        ],
+        "picture": "https://cdn.dodostatic.net/pizza-site/dist/assets/989b4d97e5e5e36eddbd..svg"
+    },
+    "74": {
+        "title": "Острый Додстер",
+        "ingredients": [
+            "Горячая закуска с цыпленком",
+            "перчиком халапеньо",
+            "маринованными огурчиками",
+            "томатами",
+            "моцареллой и соусом барбекю в тонкой пшеничной лепешке"
+        ],
+        "picture": "https://cdn.dodostatic.net/pizza-site/dist/assets/989b4d97e5e5e36eddbd..svg"
+    },
+    "75": {
+        "title": "Грибной Стартер",
+        "ingredients": [
+            "Горячая закуска с шампиньонами",
+            "моцареллой и соусом ранч в тонкой пшеничной лепешке"
+        ],
+        "picture": "https://cdn.dodostatic.net/pizza-site/dist/assets/989b4d97e5e5e36eddbd..svg"
+    },
+    "76": {
+        "title": "Сырный Стартер",
+        "ingredients": [
+            "Горячая закуска с очень сырной начинкой. Моцарелла",
+            "пармезан",
+            "чеддер и соус ранч в тонкой пшеничной лепешке"
+        ],
+        "picture": "https://cdn.dodostatic.net/pizza-site/dist/assets/989b4d97e5e5e36eddbd..svg"
+    },
+    "77": {
+        "title": "Куриные наггетсы",
+        "ingredients": [
+            "Нежное куриное мясо в хрустящей панировке"
+        ],
+        "picture": "https://cdn.dodostatic.net/pizza-site/dist/assets/989b4d97e5e5e36eddbd..svg"
+    },
+    "78": {
+        "title": "Картофель из печи с соусом",
+        "ingredients": [
+            "Запеченная в печи картошечка с пряными специями. В комплекте сырный соус"
+        ],
+        "picture": "https://cdn.dodostatic.net/pizza-site/dist/assets/989b4d97e5e5e36eddbd..svg"
+    },
+    "79": {
+        "title": "Картофель из печи",
+        "ingredients": [
+            "Запеченная в печи картошечка — привычный вкус и мало масла. В составе пряные специи"
+        ],
+        "picture": "https://cdn.dodostatic.net/pizza-site/dist/assets/989b4d97e5e5e36eddbd..svg"
+    },
+    "80": {
+        "title": "Салат Цезарь",
+        "ingredients": [
+            "Цыпленок",
+            "свежие листья салата айсберг",
+            "томаты черри",
+            "сыры чеддер и пармезан",
+            "соус цезарь",
+            "пшеничные гренки",
+            "итальянские травы"
+        ],
+        "picture": "https://cdn.dodostatic.net/pizza-site/dist/assets/989b4d97e5e5e36eddbd..svg"
+    },
+    "81": {
+        "title": "Греческий салат с соусом бальзамик",
+        "ingredients": [
+            "Хрустящий салат айсберг",
+            "сочные томаты черри",
+            "маслины",
+            "свежий огурец",
+            "кубики брынзы и бальзамик. Дрессинг для заправки в наборе"
+        ],
+        "picture": "https://cdn.dodostatic.net/pizza-site/dist/assets/989b4d97e5e5e36eddbd..svg"
+    },
+    "82": {
+        "title": "Большой Коктейль Ежевика-малина ",
+        "ingredients": [
+            "Сливочная прохлада классического молочного коктейля с добавлением лесных ягод"
+        ],
+        "picture": "https://cdn.dodostatic.net/pizza-site/dist/assets/989b4d97e5e5e36eddbd..svg"
+    },
+    "83": {
+        "title": "Молочный коктейль Ежевика-малина",
+        "ingredients": [
+            "Сливочная прохлада классического молочного коктейля с добавлением лесных ягод"
+        ],
+        "picture": "https://cdn.dodostatic.net/pizza-site/dist/assets/989b4d97e5e5e36eddbd..svg"
+    },
+    "84": {
+        "title": "Молочный коктейль Пина Колада",
+        "ingredients": [
+            "Тропическое сочетание кокоса и ананаса в нежном милкшейке"
+        ],
+        "picture": "https://cdn.dodostatic.net/pizza-site/dist/assets/989b4d97e5e5e36eddbd..svg"
+    },
+    "85": {
+        "title": "Молочный коктейль с печеньем Орео",
+        "ingredients": [
+            "То самое печенье «Орео» в удобном формате ледяного милкшейка"
+        ],
+        "picture": "https://cdn.dodostatic.net/pizza-site/dist/assets/989b4d97e5e5e36eddbd..svg"
+    },
+    "86": {
+        "title": "Классический молочный коктейль",
+        "ingredients": [
+            "Это классика: молоко",
+            "мороженое и ничего лишнего"
+        ],
+        "picture": "https://cdn.dodostatic.net/pizza-site/dist/assets/989b4d97e5e5e36eddbd..svg"
+    },
+    "87": {
+        "title": "Клубничный молочный коктейль",
+        "ingredients": [
+            "Лето всегда рядом: сироп из спелой клубники",
+            "молоко и мороженое"
+        ],
+        "picture": "https://cdn.dodostatic.net/pizza-site/dist/assets/989b4d97e5e5e36eddbd..svg"
+    },
+    "88": {
+        "title": "Шоколадный молочный коктейль",
+        "ingredients": [
+            "Шоколадный милкшейк со сливочным мороженым и фирменным какао"
+        ],
+        "picture": "https://cdn.dodostatic.net/pizza-site/dist/assets/989b4d97e5e5e36eddbd..svg"
+    },
+    "89": {
+        "title": "Капучино Яблочный пирог",
+        "ingredients": [
+            "Классический капучино с молочной пенкой и ярким сиропом — напоминает по вкусу домашнюю шарлотку"
+        ],
+        "picture": "https://cdn.dodostatic.net/pizza-site/dist/assets/989b4d97e5e5e36eddbd..svg"
+    },
+    "90": {
+        "title": "Кофе Карамельный капучино",
+        "ingredients": [
+            "Классический капучино с молочной пенкой и карамельным сиропом"
+        ],
+        "picture": "https://cdn.dodostatic.net/pizza-site/dist/assets/989b4d97e5e5e36eddbd..svg"
+    },
+    "91": {
+        "title": "Кофе Кокосовый латте",
+        "ingredients": [
+            "Горячий латте с кокосовым сиропом"
+        ],
+        "picture": "https://cdn.dodostatic.net/pizza-site/dist/assets/989b4d97e5e5e36eddbd..svg"
+    },
+    "92": {
+        "title": "Кофе Ореховый латте",
+        "ingredients": [
+            "Горячий латте с сиропом со вкусом фундука"
+        ],
+        "picture": "https://cdn.dodostatic.net/pizza-site/dist/assets/989b4d97e5e5e36eddbd..svg"
+    },
+    "93": {
+        "title": "Айс капучино",
+        "ingredients": [
+            "Освежающий холодный кофе с порцией эспрессо и пломбиром"
+        ],
+        "picture": "https://cdn.dodostatic.net/pizza-site/dist/assets/989b4d97e5e5e36eddbd..svg"
+    },
+    "94": {
+        "title": "Кофе Капучино",
+        "ingredients": [
+            "Легендарный рецепт кофе: эспрессо",
+            "горячее молоко и плотная молочная пенка"
+        ],
+        "picture": "https://cdn.dodostatic.net/pizza-site/dist/assets/989b4d97e5e5e36eddbd..svg"
+    },
+    "95": {
+        "title": "Кофе Латте",
+        "ingredients": [
+            "Идеально сбалансированное сочетание кофе",
+            "увеличенной порции молока и нежнейшей пенки"
+        ],
+        "picture": "https://cdn.dodostatic.net/pizza-site/dist/assets/989b4d97e5e5e36eddbd..svg"
+    },
+    "96": {
+        "title": "Кофе Американо",
+        "ingredients": [
+            "Горячий кофе для ценителей чистого вкуса"
+        ],
+        "picture": "https://cdn.dodostatic.net/pizza-site/dist/assets/989b4d97e5e5e36eddbd..svg"
+    },
+    "97": {
+        "title": "Дрип-пакет",
+        "ingredients": [
+            "Один дрип-пакет с фирменным кофе",
+            "чтобы сделать день чуточку лучше"
+        ],
+        "picture": "https://cdn.dodostatic.net/pizza-site/dist/assets/989b4d97e5e5e36eddbd..svg"
+    },
+    "98": {
+        "title": "Дрип-пакеты, 8 штук",
+        "ingredients": [
+            "Это наш молотый кофе в удобных дрип-пакетах",
+            "которые можно взять с собой. В наборе 8 штук"
+        ],
+        "picture": "https://cdn.dodostatic.net/pizza-site/dist/assets/989b4d97e5e5e36eddbd..svg"
+    },
+    "99": {
+        "title": "Додо кофе молотый",
+        "ingredients": [
+            "Взяли нашу фирменную смесь зерен и помололи для вас. Удобный формат ароматного кофе"
+        ],
+        "picture": "https://cdn.dodostatic.net/pizza-site/dist/assets/989b4d97e5e5e36eddbd..svg"
+    },
+    "100": {
+        "title": "Додо кофе в зернах",
+        "ingredients": [
+            "Фирменная смесь кофейных зерен из Бразилии и Эфиопии. Раскрывается нотками карамели",
+            "шоколада и грецкого ореха"
+        ],
+        "picture": "https://cdn.dodostatic.net/pizza-site/dist/assets/989b4d97e5e5e36eddbd..svg"
+    },
+    "101": {
+        "title": "Кофе в зернах - фирменная смесь",
+        "ingredients": [
+            "Фирменная смесь кофейных зерен из 100% арабики. Кофейные зерна из Бразилии и Эфиопии обжаренные по специальному рецепту Додо. Идеально подходят для заваривания в домашних условиях"
+        ],
+        "picture": "https://cdn.dodostatic.net/pizza-site/dist/assets/989b4d97e5e5e36eddbd..svg"
+    },
+    "102": {
+        "title": "Какао",
+        "ingredients": [
+            "Насыщенное",
+            "плотное и такое знакомое какао с молоком"
+        ],
+        "picture": "https://cdn.dodostatic.net/pizza-site/dist/assets/989b4d97e5e5e36eddbd..svg"
+    },
+    "103": {
+        "title": "Лимонад Арбузный лайм",
+        "ingredients": [
+            "Cладость арбуза с освежающим лаймом и листьями мяты по фирменному рецепту"
+        ],
+        "picture": "https://cdn.dodostatic.net/pizza-site/dist/assets/989b4d97e5e5e36eddbd..svg"
+    },
+    "104": {
+        "title": "Добрый Кола Малина",
+        "ingredients": [
+            ""
+        ],
+        "picture": "https://cdn.dodostatic.net/pizza-site/dist/assets/989b4d97e5e5e36eddbd..svg"
+    },
+    "105": {
+        "title": "Добрый Кола",
+        "ingredients": [
+            ""
+        ],
+        "picture": "https://cdn.dodostatic.net/pizza-site/dist/assets/989b4d97e5e5e36eddbd..svg"
+    },
+    "106": {
+        "title": "Добрый Кола без сахара",
+        "ingredients": [
+            ""
+        ],
+        "picture": "https://cdn.dodostatic.net/pizza-site/dist/assets/989b4d97e5e5e36eddbd..svg"
+    },
+    "107": {
+        "title": "Добрый Апельсин",
+        "ingredients": [
+            ""
+        ],
+        "picture": "https://cdn.dodostatic.net/pizza-site/dist/assets/989b4d97e5e5e36eddbd..svg"
+    },
+    "108": {
+        "title": "Добрый Лимон-Лайм",
+        "ingredients": [
+            ""
+        ],
+        "picture": "https://cdn.dodostatic.net/pizza-site/dist/assets/989b4d97e5e5e36eddbd..svg"
+    },
+    "109": {
+        "title": "Добрый Манго-Маракуйя",
+        "ingredients": [
+            ""
+        ],
+        "picture": "https://cdn.dodostatic.net/pizza-site/dist/assets/989b4d97e5e5e36eddbd..svg"
+    },
+    "110": {
+        "title": "Rich Tea Черный с лимоном",
+        "ingredients": [
+            ""
+        ],
+        "picture": "https://cdn.dodostatic.net/pizza-site/dist/assets/989b4d97e5e5e36eddbd..svg"
+    },
+    "111": {
+        "title": "Rich Tea Зеленый",
+        "ingredients": [
+            ""
+        ],
+        "picture": "https://cdn.dodostatic.net/pizza-site/dist/assets/989b4d97e5e5e36eddbd..svg"
+    },
+    "112": {
+        "title": "Rich Tea Зеленый с манго",
+        "ingredients": [
+            ""
+        ],
+        "picture": "https://cdn.dodostatic.net/pizza-site/dist/assets/989b4d97e5e5e36eddbd..svg"
+    },
+    "113": {
+        "title": "Апельсиновый сок Rich",
+        "ingredients": [
+            ""
+        ],
+        "picture": "https://cdn.dodostatic.net/pizza-site/dist/assets/989b4d97e5e5e36eddbd..svg"
+    },
+    "114": {
+        "title": "Яблочный сок Rich",
+        "ingredients": [
+            ""
+        ],
+        "picture": "https://cdn.dodostatic.net/pizza-site/dist/assets/989b4d97e5e5e36eddbd..svg"
+    },
+    "115": {
+        "title": "Вишневый нектар Rich",
+        "ingredients": [
+            ""
+        ],
+        "picture": "https://cdn.dodostatic.net/pizza-site/dist/assets/989b4d97e5e5e36eddbd..svg"
+    },
+    "116": {
+        "title": "Морс Клюква",
+        "ingredients": [
+            "Фирменный ягодный морс из натуральной клюквы с терпким послевкусием \nДизайн товара может отличаться"
+        ],
+        "picture": "https://cdn.dodostatic.net/pizza-site/dist/assets/989b4d97e5e5e36eddbd..svg"
+    },
+    "117": {
+        "title": "Морс Черная смородина",
+        "ingredients": [
+            "Фирменный ягодный морс из натуральной душистой черной смородины \nДизайн товара может отличаться"
+        ],
+        "picture": "https://cdn.dodostatic.net/pizza-site/dist/assets/989b4d97e5e5e36eddbd..svg"
+    },
+    "118": {
+        "title": "Морс Вишня",
+        "ingredients": [
+            "Фирменный ягодный морс из натуральной спелой вишни. В меру сладкий и с приятной кислинкой\nДизайн товара может отличаться"
+        ],
+        "picture": "https://cdn.dodostatic.net/pizza-site/dist/assets/989b4d97e5e5e36eddbd..svg"
+    },
+    "119": {
+        "title": "Таежный чай, 10 пакетиков",
+        "ingredients": [
+            "Зеленый листовой чай с листьями мяты и лепестками василька"
+        ],
+        "picture": "https://cdn.dodostatic.net/pizza-site/dist/assets/989b4d97e5e5e36eddbd..svg"
+    },
+    "120": {
+        "title": "Тирамису",
+        "ingredients": [
+            "Многослойный десерт в лучших итальянских традициях: легкий аромат какао",
+            "пропитанная кофе бисквитная прослойка и нежный крем"
+        ],
+        "picture": "https://cdn.dodostatic.net/pizza-site/dist/assets/989b4d97e5e5e36eddbd..svg"
+    },
+    "121": {
+        "title": "Додобоны",
+        "ingredients": [
+            "Когда сливочное встречается с пряным",
+            "получаются горячие булочки с корицей в фирменном пломбирном соусе"
+        ],
+        "picture": "https://cdn.dodostatic.net/pizza-site/dist/assets/989b4d97e5e5e36eddbd..svg"
+    },
+    "122": {
+        "title": "Бруслетики",
+        "ingredients": [
+            "Это задорные сладкие рулетики",
+            "в которых закрутился микс из натуральной брусники и фирменного пломбирного соуса"
+        ],
+        "picture": "https://cdn.dodostatic.net/pizza-site/dist/assets/989b4d97e5e5e36eddbd..svg"
+    },
+    "123": {
+        "title": "Чизкейк Нью-Йорк",
+        "ingredients": [
+            "Нежнейшая сырная основа",
+            "тонкий корж песочного теста и никаких добавок. Классика в мире десертов"
+        ],
+        "picture": "https://cdn.dodostatic.net/pizza-site/dist/assets/989b4d97e5e5e36eddbd..svg"
+    },
+    "124": {
+        "title": "Макарон манго-маракуйя",
+        "ingredients": [
+            "Знаменитый французский десерт со вкусом тропических фруктов. Bon appétit!"
+        ],
+        "picture": "https://cdn.dodostatic.net/pizza-site/dist/assets/989b4d97e5e5e36eddbd..svg"
+    },
+    "125": {
+        "title": "Чизкейк Банановый с шоколадным печеньем",
+        "ingredients": [
+            "Солнечная версия классического рецепта: нежный чизкейк с бананом и шоколадным печеньем"
+        ],
+        "picture": "https://cdn.dodostatic.net/pizza-site/dist/assets/989b4d97e5e5e36eddbd..svg"
+    },
+    "126": {
+        "title": "Эклеры-мини с заварным кремом",
+        "ingredients": [
+            "Три маленьких",
+            "но таких милых эклерчика с заварным кремом. Можно поделиться с друзьями"
+        ],
+        "picture": "https://cdn.dodostatic.net/pizza-site/dist/assets/989b4d97e5e5e36eddbd..svg"
+    },
+    "127": {
+        "title": "Шоколадный кукис",
+        "ingredients": [
+            "Мягкое печенье с кусочками темного шоколада. Идеально сочетается с чаем",
+            "кофе или какао"
+        ],
+        "picture": "https://cdn.dodostatic.net/pizza-site/dist/assets/989b4d97e5e5e36eddbd..svg"
+    },
+    "128": {
+        "title": "Фондан",
+        "ingredients": [
+            "Французский шоколадный десерт с хрустящей корочкой и жидкой начинкой"
+        ],
+        "picture": "https://cdn.dodostatic.net/pizza-site/dist/assets/989b4d97e5e5e36eddbd..svg"
+    },
+    "129": {
+        "title": "Маффин Соленая карамель",
+        "ingredients": [
+            "Кекс",
+            "раскрывающий необычное сочетание соленого арахиса и сладкой карамели"
+        ],
+        "picture": "https://cdn.dodostatic.net/pizza-site/dist/assets/989b4d97e5e5e36eddbd..svg"
+    },
+    "130": {
+        "title": "Маффин Три шоколада",
+        "ingredients": [
+            "Кекс из натурального какао с начинкой из кубиков белого и молочного шоколада"
+        ],
+        "picture": "https://cdn.dodostatic.net/pizza-site/dist/assets/989b4d97e5e5e36eddbd..svg"
+    },
+    "131": {
+        "title": "Сорбет Лимонный фреш",
+        "ingredients": [
+            "Цитрусовая свежесть и сладкий вкус с приятной кислинкой"
+        ],
+        "picture": "https://cdn.dodostatic.net/pizza-site/dist/assets/989b4d97e5e5e36eddbd..svg"
+    },
+    "132": {
+        "title": "Сорбет Клубничный гранат",
+        "ingredients": [
+            "Охлаждающий дуэт сочных ягод и спелых фруктов"
+        ],
+        "picture": "https://cdn.dodostatic.net/pizza-site/dist/assets/989b4d97e5e5e36eddbd..svg"
+    },
+    "133": {
+        "title": "Сырники с малиновым вареньем",
+        "ingredients": [
+            "Любимый десерт многих гостей — румяные сырники из печи с малиновым вареньем. Нежные",
+            "в меру сладкие и напоминающие детство"
+        ],
+        "picture": "https://cdn.dodostatic.net/pizza-site/dist/assets/989b4d97e5e5e36eddbd..svg"
+    },
+    "134": {
+        "title": "Сырники со сгущенным молоком",
+        "ingredients": [
+            "Нежные сырники",
+            "приготовленные в печи",
+            "с порционным сгущенным молоком"
+        ],
+        "picture": "https://cdn.dodostatic.net/pizza-site/dist/assets/989b4d97e5e5e36eddbd..svg"
+    },
+    "135": {
+        "title": "Сырники",
+        "ingredients": [
+            "Любимый десерт многих гостей — румяные сырники из печи. Нежные",
+            "в меру сладкие и напоминающие детство"
+        ],
+        "picture": "https://cdn.dodostatic.net/pizza-site/dist/assets/989b4d97e5e5e36eddbd..svg"
+    },
+    "136": {
+        "title": "2 соуса",
+        "ingredients": [
+            "Комбинируйте пары соусов для ярких перекусов"
+        ],
+        "picture": "https://cdn.dodostatic.net/pizza-site/dist/assets/989b4d97e5e5e36eddbd..svg"
+    },
+    "137": {
+        "title": "Сырный",
+        "ingredients": [
+            "Фирменный соус со вкусом расплавленного сыра для бортиков пиццы и горячих закусок",
+            "25 г"
+        ],
+        "picture": "https://cdn.dodostatic.net/pizza-site/dist/assets/989b4d97e5e5e36eddbd..svg"
+    },
+    "138": {
+        "title": "Чесночный",
+        "ingredients": [
+            "Фирменный соус с чесночным вкусом для бортиков пиццы и горячих закусок",
+            "25 г"
+        ],
+        "picture": "https://cdn.dodostatic.net/pizza-site/dist/assets/989b4d97e5e5e36eddbd..svg"
+    },
+    "139": {
+        "title": "Барбекю",
+        "ingredients": [
+            "Фирменный соус с дымным ароматом для бортиков пиццы и горячих закусок",
+            "25 г"
+        ],
+        "picture": "https://cdn.dodostatic.net/pizza-site/dist/assets/989b4d97e5e5e36eddbd..svg"
+    },
+    "140": {
+        "title": "Медово-горчичный",
+        "ingredients": [
+            "Фирменный медово-горчичный соус со жгучей сладостью для бортиков пиццы и горячих закусок",
+            "25 г"
+        ],
+        "picture": "https://cdn.dodostatic.net/pizza-site/dist/assets/989b4d97e5e5e36eddbd..svg"
+    },
+    "141": {
+        "title": "Малиновое варенье",
+        "ingredients": [
+            "Идеально к сырникам",
+            "25 г"
+        ],
+        "picture": "https://cdn.dodostatic.net/pizza-site/dist/assets/989b4d97e5e5e36eddbd..svg"
+    },
+    "142": {
+        "title": "Сгущёнка в стиках, 7 г",
+        "ingredients": [
+            "Идеально к сырникам"
+        ],
+        "picture": "https://cdn.dodostatic.net/pizza-site/dist/assets/989b4d97e5e5e36eddbd..svg"
+    },
+    "143": {
+        "title": "Додо Книги 1+2",
+        "ingredients": [
+            "Набор из двух книг — «Додо Книга 1» и «Додо Книга 2». Рассказываем об истории",
+            "ценностях и развитии компании"
+        ],
+        "picture": "https://cdn.dodostatic.net/pizza-site/dist/assets/989b4d97e5e5e36eddbd..svg"
+    },
+    "144": {
+        "title": "Додо Раскраска",
+        "ingredients": [
+            "Чтобы обед был не только сытным",
+            "но и веселым"
+        ],
+        "picture": "https://cdn.dodostatic.net/pizza-site/dist/assets/989b4d97e5e5e36eddbd..svg"
+    },
+    "145": {
+        "title": "Додо Клюв",
+        "ingredients": [
+            "Если хочется перевоплощения"
+        ],
+        "picture": "https://cdn.dodostatic.net/pizza-site/dist/assets/989b4d97e5e5e36eddbd..svg"
+    },
+    "146": {
+        "title": "Додо Колпак",
+        "ingredients": [
+            "Цвета разные",
+            "а эмоции одни – все варианты на высоте. Перед тем",
+            "как надевать",
+            "не забудьте его собрать"
+        ],
+        "picture": "https://cdn.dodostatic.net/pizza-site/dist/assets/989b4d97e5e5e36eddbd..svg"
+    },
+    "147": {
+        "title": "Чилл Грилл",
+        "ingredients": [
+            "Цыпленок",
+            "маринованные огурчики",
+            "красный лук",
+            "соус гриль",
+            "моцарелла",
+            "чеснок",
+            "фирменный соус альфредо"
+        ],
+        "picture": "https://cdn.dodostatic.net/pizza-site/dist/assets/989b4d97e5e5e36eddbd..svg"
+    },
+    "148": {
+        "title": "Додстер Чилл Грилл",
+        "ingredients": [
+            "Горячая закуска с цыпленком и соусом гриль с луком",
+            "маринованными огурчиками и моцареллой в тонкой пшеничной лепешке"
+        ],
+        "picture": "https://cdn.dodostatic.net/pizza-site/dist/assets/989b4d97e5e5e36eddbd..svg"
+    },
+    "149": {
+        "title": "Баварская",
+        "ingredients": [
+            "Баварские колбаски",
+            "маринованные огурчики",
+            "красный лук",
+            "томаты",
+            "горчичный соус",
+            "моцарелла",
+            "фирменный томатный соус"
+        ],
+        "picture": "https://cdn.dodostatic.net/pizza-site/dist/assets/989b4d97e5e5e36eddbd..svg"
+    },
+    "150": {
+        "title": "Баварский ланчбокс",
+        "ingredients": [
+            "Горячий сытный обед из баварских колбасок",
+            "картофеля из печи и горчичного соуса"
+        ],
+        "picture": "https://cdn.dodostatic.net/pizza-site/dist/assets/989b4d97e5e5e36eddbd..svg"
+    },
+    "151": {
+        "title": "Додо кофе молотый",
+        "ingredients": [
+            "Взяли нашу фирменную смесь зерен и помололи для вас. Удобный формат ароматного кофе"
+        ],
+        "picture": "https://cdn.dodostatic.net/pizza-site/dist/assets/989b4d97e5e5e36eddbd..svg"
+    },
+    "152": {
+        "title": "Додо кофе в зернах",
+        "ingredients": [
+            "Фирменная смесь кофейных зерен из Бразилии и Эфиопии. Раскрывается нотками карамели",
+            "шоколада и грецкого ореха"
+        ],
+        "picture": "https://cdn.dodostatic.net/pizza-site/dist/assets/989b4d97e5e5e36eddbd..svg"
+    },
+    "153": {
+        "title": "Дрип-пакет",
+        "ingredients": [
+            "Один дрип-пакет с фирменным кофе",
+            "чтобы сделать день чуточку лучше"
+        ],
+        "picture": "https://cdn.dodostatic.net/pizza-site/dist/assets/989b4d97e5e5e36eddbd..svg"
+    },
+    "154": {
+        "title": "Дрип-пакеты, 8 штук",
+        "ingredients": [
+            "Это наш молотый кофе в удобных дрип-пакетах",
+            "которые можно взять с собой. В наборе 8 штук"
+        ],
+        "picture": "https://cdn.dodostatic.net/pizza-site/dist/assets/989b4d97e5e5e36eddbd..svg"
+    },
+    "155": {
+        "title": "Соберите свой омлет",
+        "ingredients": [
+            "Ваш фирменный рецепт на основе горячего омлета из печи с томатами и моцареллой",
+            "Добавляйте начинку по вкусу",
+            "но в меру: больше 4-5 ингредиентов уже не поместятся."
+        ],
+        "picture": "https://cdn.dodostatic.net/pizza-site/dist/assets/989b4d97e5e5e36eddbd..svg"
+    },
+    "156": {
+        "title": "3 пиццы 35 см",
+        "ingredients": [
+            "3 Большие пиццы на ваш выбор. Цена комбо зависит от выбранных пицц и может быть увеличена"
+        ],
+        "picture": "https://cdn.dodostatic.net/pizza-site/dist/assets/989b4d97e5e5e36eddbd..svg"
+    },
+    "157": {
+        "title": "Дэнвич с говядиной",
+        "ingredients": [
+            "Хрустящая чиабатта с ароматной пряной говядиной и цыпленком с соусами бургер и барбекю",
+            "свежими томатами и моцареллой"
+        ],
+        "picture": "https://cdn.dodostatic.net/pizza-site/dist/assets/989b4d97e5e5e36eddbd..svg"
+    },
+    "158": {
+        "title": "Креветки",
+        "ingredients": [
+            "Цельные креветки в хрустящей панировке"
+        ],
+        "picture": "https://cdn.dodostatic.net/pizza-site/dist/assets/989b4d97e5e5e36eddbd..svg"
+    },
+    "159": {
+        "title": "Омлет с беконом в пите",
+        "ingredients": [
+            "Горячий сытный омлет с поджаристой корочкой",
+            "бекон",
+            "моцарелла и томаты в пшеничной пите. Удобно взять с собой"
+        ],
+        "picture": "https://cdn.dodostatic.net/pizza-site/dist/assets/989b4d97e5e5e36eddbd..svg"
+    },
+    "160": {
+        "title": "Омлет с ветчиной и грибами в пите  ",
+        "ingredients": [
+            "Горячий сытный омлет с поджаристой корочкой",
+            "ветчина",
+            "шампиньоны и моцарелла в пшеничной пите. Удобно взять с собой"
+        ],
+        "picture": "https://cdn.dodostatic.net/pizza-site/dist/assets/989b4d97e5e5e36eddbd..svg"
+    },
+    "161": {
+        "title": "Омлет с пепперони в пите",
+        "ingredients": [
+            "Для тех",
+            "кто не пропускает завтраки — омлет с поджаристой корочкой",
+            "пикантная пепперони",
+            "томаты и моцарелла в пшеничной пите. Удобно взять с собой"
+        ],
+        "picture": "https://cdn.dodostatic.net/pizza-site/dist/assets/989b4d97e5e5e36eddbd..svg"
+    },
+    "162": {
+        "title": "Омлет сырный в пите",
+        "ingredients": [
+            "Вариант завтрака в пшеничной пите с омлетом с поджаристой корочкой",
+            "моцареллой",
+            "кубиками брынзы",
+            "сырами чеддер и пармезан. Удобно взять с собой"
+        ],
+        "picture": "https://cdn.dodostatic.net/pizza-site/dist/assets/989b4d97e5e5e36eddbd..svg"
+    },
+    "163": {
+        "title": "Тирамису",
+        "ingredients": [
+            "Многослойный десерт в лучших итальянских традициях: легкий аромат какао",
+            "пропитанная кофе бисквитная прослойка и нежный крем"
+        ],
+        "picture": "https://cdn.dodostatic.net/pizza-site/dist/assets/989b4d97e5e5e36eddbd..svg"
+    },
+    "164": {
+        "title": "Додобоны",
+        "ingredients": [
+            "Когда сливочное встречается с пряным",
+            "получаются горячие булочки с корицей в фирменном пломбирном соусе"
+        ],
+        "picture": "https://cdn.dodostatic.net/pizza-site/dist/assets/989b4d97e5e5e36eddbd..svg"
+    },
+    "165": {
+        "title": "Капучино Яблочный пирог",
+        "ingredients": [
+            "Классический капучино с молочной пенкой и ярким сиропом — напоминает по вкусу домашнюю шарлотку"
+        ],
+        "picture": "https://cdn.dodostatic.net/pizza-site/dist/assets/989b4d97e5e5e36eddbd..svg"
+    },
+    "166": {
+        "title": "Большой Коктейль Ежевика-малина ",
+        "ingredients": [
+            "Сливочная прохлада классического молочного коктейля с добавлением лесных ягод"
+        ],
+        "picture": "https://cdn.dodostatic.net/pizza-site/dist/assets/989b4d97e5e5e36eddbd..svg"
+    },
+    "167": {
+        "title": "Соберите свой омлет",
+        "ingredients": [
+            "Ваш фирменный рецепт на основе горячего омлета из печи с томатами и моцареллой",
+            "Добавляйте начинку по вкусу",
+            "но в меру: больше 4-5 ингредиентов уже не поместятся."
+        ],
+        "picture": "https://cdn.dodostatic.net/pizza-site/dist/assets/989b4d97e5e5e36eddbd..svg"
+    },
+    "168": {
+        "title": "Омлет с томатами в пите",
+        "ingredients": [
+            "Легкий и питательный завтрак: омлет из печи с томатами и моцареллой в пшеничной пите. Удобно брать с собой"
+        ],
+        "picture": "https://cdn.dodostatic.net/pizza-site/dist/assets/989b4d97e5e5e36eddbd..svg"
+    },
+    "169": {
+        "title": "Омлет с беконом в пите",
+        "ingredients": [
+            "Горячий сытный омлет с поджаристой корочкой",
+            "бекон",
+            "моцарелла и томаты в пшеничной пите. Удобно взять с собой"
+        ],
+        "picture": "https://cdn.dodostatic.net/pizza-site/dist/assets/989b4d97e5e5e36eddbd..svg"
+    },
+    "170": {
+        "title": "Омлет с ветчиной и грибами в пите  ",
+        "ingredients": [
+            "Горячий сытный омлет с поджаристой корочкой",
+            "ветчина",
+            "шампиньоны и моцарелла в пшеничной пите. Удобно взять с собой"
+        ],
+        "picture": "https://cdn.dodostatic.net/pizza-site/dist/assets/989b4d97e5e5e36eddbd..svg"
+    },
+    "171": {
+        "title": "Омлет с пепперони в пите",
+        "ingredients": [
+            "Для тех",
+            "кто не пропускает завтраки — омлет с поджаристой корочкой",
+            "пикантная пепперони",
+            "томаты и моцарелла в пшеничной пите. Удобно взять с собой"
+        ],
+        "picture": "https://cdn.dodostatic.net/pizza-site/dist/assets/989b4d97e5e5e36eddbd..svg"
+    },
+    "172": {
+        "title": "Омлет сырный в пите",
+        "ingredients": [
+            "Вариант завтрака в пшеничной пите с омлетом с поджаристой корочкой",
+            "моцареллой",
+            "кубиками брынзы",
+            "сырами чеддер и пармезан. Удобно взять с собой"
+        ],
+        "picture": "https://cdn.dodostatic.net/pizza-site/dist/assets/989b4d97e5e5e36eddbd..svg"
+    },
+    "173": {
+        "title": "Омлет с томатами",
+        "ingredients": [
+            "Легкий и питательный завтрак: омлет из печи с томатами и моцареллой"
+        ],
+        "picture": "https://cdn.dodostatic.net/pizza-site/dist/assets/989b4d97e5e5e36eddbd..svg"
+    },
+    "174": {
+        "title": "Омлет с беконом",
+        "ingredients": [
+            "Классическое сочетание горячего омлета с поджаристой корочкой и бекона с добавлением моцареллы и томатов на завтрак"
+        ],
+        "picture": "https://cdn.dodostatic.net/pizza-site/dist/assets/989b4d97e5e5e36eddbd..svg"
+    },
+    "175": {
+        "title": "Омлет с ветчиной и грибами",
+        "ingredients": [
+            "Горячий сытный омлет с поджаристой корочкой",
+            "ветчина",
+            "шампиньоны и моцарелла"
+        ],
+        "picture": "https://cdn.dodostatic.net/pizza-site/dist/assets/989b4d97e5e5e36eddbd..svg"
+    },
+    "176": {
+        "title": "Омлет с пепперони",
+        "ingredients": [
+            "Сытный и сбалансированный завтрак — омлет с поджаристой корочкой",
+            "пикантная пепперони",
+            "томаты и моцарелла"
+        ],
+        "picture": "https://cdn.dodostatic.net/pizza-site/dist/assets/989b4d97e5e5e36eddbd..svg"
+    },
+    "177": {
+        "title": "Омлет сырный",
+        "ingredients": [
+            "Горячий завтрак из омлета с поджаристой корочкой",
+            "моцарелла",
+            "кубики брынзы",
+            "сыры чеддер и пармезан"
+        ],
+        "picture": "https://cdn.dodostatic.net/pizza-site/dist/assets/989b4d97e5e5e36eddbd..svg"
+    },
+    "178": {
+        "title": "Додстер с ветчиной",
+        "ingredients": [
+            "Горячий завтрак с ветчиной",
+            "томатами",
+            "моцареллой",
+            "соусом ранч в тонкой пшеничной лепешке"
+        ],
+        "picture": "https://cdn.dodostatic.net/pizza-site/dist/assets/989b4d97e5e5e36eddbd..svg"
+    },
+    "179": {
+        "title": "Сырники со сгущенным молоком",
+        "ingredients": [
+            "Нежные сырники",
+            "приготовленные в печи",
+            "с порционным сгущенным молоком"
+        ],
+        "picture": "https://cdn.dodostatic.net/pizza-site/dist/assets/989b4d97e5e5e36eddbd..svg"
+    },
+    "180": {
+        "title": "Сырники с малиновым вареньем",
+        "ingredients": [
+            "Любимый десерт многих гостей — румяные сырники из печи с малиновым вареньем. Нежные",
+            "в меру сладкие и напоминающие детство"
+        ],
+        "picture": "https://cdn.dodostatic.net/pizza-site/dist/assets/989b4d97e5e5e36eddbd..svg"
+    },
+    "181": {
+        "title": "Сырники",
+        "ingredients": [
+            "Любимый десерт многих гостей — румяные сырники из печи. Нежные",
+            "в меру сладкие и напоминающие детство"
+        ],
+        "picture": "https://cdn.dodostatic.net/pizza-site/dist/assets/989b4d97e5e5e36eddbd..svg"
+    },
+    "182": {
+        "title": "Кофе Американо",
+        "ingredients": [
+            "Горячий кофе для ценителей чистого вкуса"
+        ],
+        "picture": "https://cdn.dodostatic.net/pizza-site/dist/assets/989b4d97e5e5e36eddbd..svg"
+    },
+    "183": {
+        "title": "Кофе Капучино",
+        "ingredients": [
+            "Легендарный рецепт кофе: эспрессо",
+            "горячее молоко и плотная молочная пенка"
+        ],
+        "picture": "https://cdn.dodostatic.net/pizza-site/dist/assets/989b4d97e5e5e36eddbd..svg"
+    },
+    "184": {
+        "title": "Кофе Латте",
+        "ingredients": [
+            "Идеально сбалансированное сочетание кофе",
+            "увеличенной порции молока и нежнейшей пенки"
+        ],
+        "picture": "https://cdn.dodostatic.net/pizza-site/dist/assets/989b4d97e5e5e36eddbd..svg"
+    },
+    "185": {
+        "title": "Завтрак на двоих",
+        "ingredients": [
+            "Горячий завтрак для двоих. 2 закуски из подборки и 2 напитка на выбор"
+        ],
+        "picture": "https://cdn.dodostatic.net/pizza-site/dist/assets/989b4d97e5e5e36eddbd..svg"
+    },
+    "186": {
+        "title": "Аррива!",
+        "ingredients": [
+            "Цыпленок",
+            "острые колбаски чоризо",
+            "соус бургер",
+            "сладкий перец",
+            "красный лук",
+            "томаты",
+            "моцарелла",
+            "соус ранч",
+            "чеснок"
+        ],
+        "picture": "https://cdn.dodostatic.net/pizza-site/dist/assets/989b4d97e5e5e36eddbd..svg"
+    },
+    "187": {
+        "title": "Карбонара",
+        "ingredients": [
+            "Бекон",
+            "сыры чеддер и пармезан",
+            "моцарелла",
+            "томаты",
+            "красный лук",
+            "чеснок",
+            "фирменный соус альфредо",
+            "итальянские травы"
+        ],
+        "picture": "https://cdn.dodostatic.net/pizza-site/dist/assets/989b4d97e5e5e36eddbd..svg"
+    },
+    "188": {
+        "title": "Песто",
+        "ingredients": [
+            "Цыпленок",
+            "соус песто",
+            "кубики брынзы",
+            "томаты",
+            "моцарелла",
+            "фирменный соус альфредо"
+        ],
+        "picture": "https://cdn.dodostatic.net/pizza-site/dist/assets/989b4d97e5e5e36eddbd..svg"
+    },
+    "189": {
+        "title": "Додо микс",
+        "ingredients": [
+            "Бекон",
+            "цыпленок",
+            "ветчина",
+            "сыры чеддер и пармезан",
+            "соус песто",
+            "кубики брынзы",
+            "томаты",
+            "красный лук",
+            "моцарелла",
+            "фирменный соус альфредо",
+            "чеснок",
+            "итальянские травы"
+        ],
+        "picture": "https://cdn.dodostatic.net/pizza-site/dist/assets/989b4d97e5e5e36eddbd..svg"
+    },
+    "190": {
+        "title": "Додо",
+        "ingredients": [
+            "Бекон",
+            "митболы",
+            "пикантная пепперони",
+            "моцарелла",
+            "томаты",
+            "шампиньоны",
+            "сладкий перец",
+            "красный лук",
+            "чеснок",
+            "фирменный томатный соус"
+        ],
+        "picture": "https://cdn.dodostatic.net/pizza-site/dist/assets/989b4d97e5e5e36eddbd..svg"
+    },
+    "191": {
+        "title": "Креветки со сладким чили",
+        "ingredients": [
+            "Креветки",
+            "ананасы",
+            "соус сладкий чили",
+            "сладкий перец",
+            "моцарелла",
+            "фирменный соус альфредо"
+        ],
+        "picture": "https://cdn.dodostatic.net/pizza-site/dist/assets/989b4d97e5e5e36eddbd..svg"
+    },
+    "192": {
+        "title": "Додстер",
+        "ingredients": [
+            "Легендарная горячая закуска с цыпленком",
+            "томатами",
+            "моцареллой",
+            "соусом ранч в тонкой пшеничной лепешке"
+        ],
+        "picture": "https://cdn.dodostatic.net/pizza-site/dist/assets/989b4d97e5e5e36eddbd..svg"
+    },
+    "193": {
+        "title": "Дэнвич чоризо барбекю",
+        "ingredients": [
+            "Насыщенный вкус острых колбасок чоризо и пикантной пепперони с соусами бургер и барбекю",
+            "свежими томатами",
+            "маринованными огурчиками",
+            "моцареллой и луком в румяной чиабатте"
+        ],
+        "picture": "https://cdn.dodostatic.net/pizza-site/dist/assets/989b4d97e5e5e36eddbd..svg"
+    },
+    "194": {
+        "title": "Додобоны",
+        "ingredients": [
+            "Когда сливочное встречается с пряным",
+            "получаются горячие булочки с корицей в фирменном пломбирном соусе"
+        ],
+        "picture": "https://cdn.dodostatic.net/pizza-site/dist/assets/989b4d97e5e5e36eddbd..svg"
+    },
+    "195": {
+        "title": "Сырный",
+        "ingredients": [
+            "Фирменный соус со вкусом расплавленного сыра для бортиков пиццы и горячих закусок",
+            "25 г"
+        ],
+        "picture": "https://cdn.dodostatic.net/pizza-site/dist/assets/989b4d97e5e5e36eddbd..svg"
+    },
+    "196": {
+        "title": "Завтрак на двоих",
+        "ingredients": [
+            "Горячий завтрак для двоих. 2 закуски из подборки и 2 напитка на выбор"
+        ],
+        "picture": "https://cdn.dodostatic.net/pizza-site/dist/assets/989b4d97e5e5e36eddbd..svg"
+    },
+    "197": {
+        "title": "Четыре в одном",
+        "ingredients": [
+            "Если хочется всего понемногу. Маленькая пицца",
+            "закуска",
+            "напиток и соус. Цена комбо зависит от выбранных продуктов и может быть увеличена"
+        ],
+        "picture": "https://cdn.dodostatic.net/pizza-site/dist/assets/989b4d97e5e5e36eddbd..svg"
+    },
+    "198": {
+        "title": "3 пиццы 25 см",
+        "ingredients": [
+            "Настоящая дегустация. Три маленькие пиццы по суперцене. Цена комбо зависит от выбранных пицц и может быть увеличена"
+        ],
+        "picture": "https://cdn.dodostatic.net/pizza-site/dist/assets/989b4d97e5e5e36eddbd..svg"
+    },
+    "199": {
+        "title": "3 пиццы 30 см",
+        "ingredients": [
+            "Три удовольствия в нашем меню — это 3 средние пиццы на ваш выбор. Цена комбо зависит от выбранных пицц и может быть увеличена"
+        ],
+        "picture": "https://cdn.dodostatic.net/pizza-site/dist/assets/989b4d97e5e5e36eddbd..svg"
+    },
+    "200": {
+        "title": "3 пиццы 35 см",
+        "ingredients": [
+            "3 Большие пиццы на ваш выбор. Цена комбо зависит от выбранных пицц и может быть увеличена"
+        ],
+        "picture": "https://cdn.dodostatic.net/pizza-site/dist/assets/989b4d97e5e5e36eddbd..svg"
+    },
+    "201": {
+        "title": "4 Закуски",
+        "ingredients": [
+            "Сытный квартет для маленькой компании. Комбо из четырех закусок на выбор"
+        ],
+        "picture": "https://cdn.dodostatic.net/pizza-site/dist/assets/989b4d97e5e5e36eddbd..svg"
+    },
+    "202": {
+        "title": "5 пицц",
+        "ingredients": [
+            "5 причин сделать вечеринку вкуснее. 5 средних пицц для компании из 10–15 человек. Цена комбо зависит от выбранных пицц и может быть увеличена"
+        ],
+        "picture": "https://cdn.dodostatic.net/pizza-site/dist/assets/989b4d97e5e5e36eddbd..svg"
+    },
+    "203": {
+        "title": "7 пицц",
+        "ingredients": [
+            "7 — счастливое число",
+            "особенно если речь о 7 средних пиццах на компанию 15-20 человек. Цена комбо зависит от выбранных пицц и может быть увеличена"
+        ],
+        "picture": "https://cdn.dodostatic.net/pizza-site/dist/assets/989b4d97e5e5e36eddbd..svg"
+    },
+    "204": {
+        "title": "10 пицц",
+        "ingredients": [
+            "Великолепная десятка. 10 средних пицц на любой вкус. Для компании из 20-30 человек. Цена комбо зависит от выбранных пицц и может быть увеличена"
+        ],
+        "picture": "https://cdn.dodostatic.net/pizza-site/dist/assets/989b4d97e5e5e36eddbd..svg"
+    },
+    "205": {
+        "title": "Додо Бокс",
+        "ingredients": [
+            "Набор юного космонавта",
+            "который легко настроить по вкусу ребенка: две закуски и напиток на выбор. В каждом комбо игрушка",
+            "а в нашем приложении игра-компаньон"
+        ],
+        "picture": "https://cdn.dodostatic.net/pizza-site/dist/assets/989b4d97e5e5e36eddbd..svg"
+    },
+    "206": {
+        "title": "Сырная",
+        "ingredients": [
+            "Моцарелла",
+            "сыры чеддер и пармезан",
+            "фирменный соус альфредо"
+        ],
+        "picture": "https://cdn.dodostatic.net/pizza-site/dist/assets/989b4d97e5e5e36eddbd..svg"
+    },
+    "207": {
+        "title": "Пепперони",
+        "ingredients": [
+            "Пикантная пепперони",
+            "увеличенная порция моцареллы",
+            "фирменный томатный соус"
+        ],
+        "picture": "https://cdn.dodostatic.net/pizza-site/dist/assets/989b4d97e5e5e36eddbd..svg"
+    },
+    "208": {
+        "title": "Пепперони фреш",
+        "ingredients": [
+            "Пикантная пепперони",
+            "увеличенная порция моцареллы",
+            "томаты",
+            "фирменный томатный соус"
+        ],
+        "picture": "https://cdn.dodostatic.net/pizza-site/dist/assets/989b4d97e5e5e36eddbd..svg"
+    },
+    "209": {
+        "title": "Ветчина и сыр",
+        "ingredients": [
+            "Ветчина",
+            "моцарелла",
+            "фирменный соус альфредо"
+        ],
+        "picture": "https://cdn.dodostatic.net/pizza-site/dist/assets/989b4d97e5e5e36eddbd..svg"
+    },
+    "210": {
+        "title": "Маргарита",
+        "ingredients": [
+            "Увеличенная порция моцареллы",
+            "томаты",
+            "итальянские травы",
+            "фирменный томатный соус"
+        ],
+        "picture": "https://cdn.dodostatic.net/pizza-site/dist/assets/989b4d97e5e5e36eddbd..svg"
+    },
+    "211": {
+        "title": "Двойной цыпленок",
+        "ingredients": [
+            "Цыпленок",
+            "моцарелла",
+            "фирменный соус альфредо"
+        ],
+        "picture": "https://cdn.dodostatic.net/pizza-site/dist/assets/989b4d97e5e5e36eddbd..svg"
+    },
+    "212": {
+        "title": "Куриные наггетсы",
+        "ingredients": [
+            "Нежное куриное мясо в хрустящей панировке"
+        ],
+        "picture": "https://cdn.dodostatic.net/pizza-site/dist/assets/989b4d97e5e5e36eddbd..svg"
+    },
+    "213": {
+        "title": "Картофель из печи",
+        "ingredients": [
+            "Запеченная в печи картошечка — привычный вкус и мало масла. В составе пряные специи"
+        ],
+        "picture": "https://cdn.dodostatic.net/pizza-site/dist/assets/989b4d97e5e5e36eddbd..svg"
+    },
+    "214": {
+        "title": "Сырники с малиновым вареньем",
+        "ingredients": [
+            "Любимый десерт многих гостей — румяные сырники из печи с малиновым вареньем. Нежные",
+            "в меру сладкие и напоминающие детство"
+        ],
+        "picture": "https://cdn.dodostatic.net/pizza-site/dist/assets/989b4d97e5e5e36eddbd..svg"
+    },
+    "215": {
+        "title": "Сырники со сгущенным молоком",
+        "ingredients": [
+            "Нежные сырники",
+            "приготовленные в печи",
+            "с порционным сгущенным молоком"
+        ],
+        "picture": "https://cdn.dodostatic.net/pizza-site/dist/assets/989b4d97e5e5e36eddbd..svg"
+    },
+    "216": {
+        "title": "Морс Клюква",
+        "ingredients": [
+            "Фирменный ягодный морс из натуральной клюквы с терпким послевкусием \nДизайн товара может отличаться"
+        ],
+        "picture": "https://cdn.dodostatic.net/pizza-site/dist/assets/989b4d97e5e5e36eddbd..svg"
+    },
+    "217": {
+        "title": "Морс Вишня",
+        "ingredients": [
+            "Фирменный ягодный морс из натуральной спелой вишни. В меру сладкий и с приятной кислинкой\nДизайн товара может отличаться"
+        ],
+        "picture": "https://cdn.dodostatic.net/pizza-site/dist/assets/989b4d97e5e5e36eddbd..svg"
+    },
+    "218": {
+        "title": "Морс Черная смородина",
+        "ingredients": [
+            "Фирменный ягодный морс из натуральной душистой черной смородины \nДизайн товара может отличаться"
+        ],
+        "picture": "https://cdn.dodostatic.net/pizza-site/dist/assets/989b4d97e5e5e36eddbd..svg"
+    },
+    "219": {
+        "title": "Додо Раскраска",
+        "ingredients": [
+            "Чтобы обед был не только сытным",
+            "но и веселым"
+        ],
+        "picture": "https://cdn.dodostatic.net/pizza-site/dist/assets/989b4d97e5e5e36eddbd..svg"
+    },
+    "220": {
+        "title": "Додо Колпак",
+        "ingredients": [
+            "Цвета разные",
+            "а эмоции одни – все варианты на высоте. Перед тем",
+            "как надевать",
+            "не забудьте его собрать"
+        ],
+        "picture": "https://cdn.dodostatic.net/pizza-site/dist/assets/989b4d97e5e5e36eddbd..svg"
+    }
+}
