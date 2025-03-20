@@ -2,12 +2,14 @@ import Auth from "../pages/Auth.jsx";
 import MainPage from "../pages/MainPage.jsx";
 import GetRegionModal from "../components/GetRegionModal.jsx";
 import Profile from "../pages/Profile.jsx";
+import PizzaFullView from "../components/PizzaFullView.jsx";
 // import NotFound404 from "../pages/NotFound404.jsx";
 
 const privateRoutes = [
     {path: "/:region", component: MainPage, exact: true},
     {path: "/:region/profile", component: Profile, exact: true},
     {path: "/", component: GetRegionModal, exact: true},
+    {path: "/modal", component: PizzaFullView, exact: true},
 ]
 
 const publicRoutes = [
