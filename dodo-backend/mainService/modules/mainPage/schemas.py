@@ -11,5 +11,5 @@ class Pizza(BaseModel):
     costs: list[int]
     picture_server_path: str
     title: str
-    weight: int
+    weights: list[int]
     ingredients: list[str]
