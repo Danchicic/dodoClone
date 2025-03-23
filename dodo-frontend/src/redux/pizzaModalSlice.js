@@ -2,7 +2,17 @@ import {createSlice} from "@reduxjs/toolkit";
 
 const initialState = {
     isOpen: false,
-    pizzaInfo: null
+    pizzaInfo: {
+        "costs": [
+            0, 0, 0
+        ],
+        "picture_server_path": "string",
+        "title": "string",
+        "weights": [0, 0, 0],
+        "ingredients": [
+            "string"
+        ]
+    }
 }
 const modalSlice = createSlice({
     name: "pizzaModal",
@@ -14,7 +24,17 @@ const modalSlice = createSlice({
         },
         closeModal: (state) => {
             state.isOpen = false;
-            state.pizzaInfo = null
+            state.pizzaInfo = {
+                "costs": [
+                    0, 0, 0
+                ],
+                "picture_server_path": "string",
+                "title": "string",
+                "weights": [0, 0, 0],
+                "ingredients": [
+                    "string"
+                ]
+            }
         }
     }
 })

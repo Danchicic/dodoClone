@@ -38,8 +38,8 @@ const GetRegionModal = () => {
         );
     }, [city])
     return (
-        <ModalFade classes="shadow-2xl rounded-2xl p-10 pb-10 bg-white w-7/10 mh-3/10 ">
-            <div className="flex  items-center">
+        <ModalFade classes="shadow-2xl rounded-2xl p-10 pb-10 bg-white w-7/10 mh-3/10" isOpen={true}>
+            <div className="flex items-center">
                 <img
                     className="w-30"
                     src="/logo.png"

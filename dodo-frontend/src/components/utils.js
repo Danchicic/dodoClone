@@ -1,4 +1,9 @@
 function capitalize(text) {
-    return text[0].toUpperCase() + text.slice(1);
+    try {
+        return text[0].toUpperCase() + text.slice(1);
+    } catch (err) {
+        return text;
+    }
 }
+
 export {capitalize};

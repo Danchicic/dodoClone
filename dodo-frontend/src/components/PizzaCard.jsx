@@ -7,7 +7,6 @@ import Button from "./UI/Button.jsx";
 
 const PizzaCard = ({pizzaInfo}) => {
     const dispatch = useDispatch();
-    console.log(pizzaInfo);
     /*
     {
     "costs": [
@@ -29,7 +28,7 @@ const PizzaCard = ({pizzaInfo}) => {
 
     return (
         <div
-            className="bg-white rounded-lg w-10/10 p-5"
+            className="bg-white rounded-lg w-10/10 p-5 border"
         >
             <div>
                 <img

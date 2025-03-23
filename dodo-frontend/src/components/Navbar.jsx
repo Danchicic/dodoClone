@@ -11,7 +11,7 @@ const Navbar = () => {
     return (
         <div>
             <nav
-                className="top-0 left-0 w-full sticky flex flex-row gap-4 pl-10 items-center backdrop-blur-md bg-white/30">
+                className="top-0 left-0 w-full sticky flex flex-row gap-4 px-10 items-center backdrop-blur-md bg-white/30 justify-between">
                 <Link to={`/${region || ""}`}>
                     <img
                         className="w-30"
@@ -19,10 +19,12 @@ const Navbar = () => {
                         alt="logo"
                     />
                 </Link>
-                <Link to="/profile">Profile</Link>
-                <Button onClick={
-                    () => dispatch(openCart())
-                }>Корзина</Button>
+                <div className="flex gap-5 items-center">
+                    <Link to="/profile">Profile</Link>
+                    <Button onClick={
+                        () => dispatch(openCart())
+                    }>Корзина</Button>
+                </div>
             </nav>
         </div>
 

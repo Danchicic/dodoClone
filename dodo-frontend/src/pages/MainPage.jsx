@@ -38,7 +38,7 @@ const MainPage = () => {
     return (
         <>
             <h1
-                className="text-5xl flex justify-center"
+                className="text-5xl flex justify-center mb-7"
             >
                 Pizza's
             </h1>

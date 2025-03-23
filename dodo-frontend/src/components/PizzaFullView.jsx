@@ -5,6 +5,7 @@ import {createPortal} from "react-dom";
 import {useDispatch, useSelector} from "react-redux";
 import RadioButtonGroup from "./RadioButtonGroup.jsx";
 import Button from "./UI/Button.jsx";
+import {closeModal} from "../redux/pizzaModalSlice.js";
 
 const PizzaFullView = () => {
     const {isOpen, pizzaInfo} = useSelector((state) => state.modal);
@@ -32,16 +33,21 @@ const PizzaFullView = () => {
         }
     }, [pizzaInfo]);
 
-    if (!isOpen) return null;
-
     function handleSizeChange() {
     }
 
     function handleDoughChange() {
     }
 
+    function addToCart() {
+    }
+
     return createPortal(
-        <ModalFade classes="justify-center shadow-2xl w-7/10 rounded-2xl">
+        <ModalFade
+            classes="justify-center shadow-2xl w-7/10 rounded-2xl"
+            onClick={() => dispatch(closeModal())}
+            isOpen={isOpen}
+        >
             <div className="flex h-100">
                 <div className="w-full bg-white">
                     <img src={pizzaInfo.picture_server_path} alt=""/>
@@ -68,7 +74,8 @@ const PizzaFullView = () => {
                         />
                     </div>
                     <div className="flex justify-self-center">
-                        <Button>
+                        <Button
+                            onClick={addToCart}>
                             В корзину за {cost} р.
                         </Button>
                     </div>
