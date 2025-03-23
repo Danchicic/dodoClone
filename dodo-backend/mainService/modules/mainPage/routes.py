@@ -6,7 +6,7 @@ from fastapi import APIRouter, status, HTTPException
 
 from modules.mainPage import schemas
 from redis_utils import get_redis
-from .utils import REGIONS
+from .utils import REGIONS, get_data_from_json
 
 logger = logging.getLogger(__file__)
 router = APIRouter()
@@ -34,3 +34,18 @@ async def add_pizza(
     redis_client = get_redis()
     redis_client.rpush(region_slug, str(new_pizza.model_dump()))
     raise HTTPException(status_code=status.HTTP_201_CREATED)
+
+
+@router.post("/admin/52/load/{region}")
+async def load_random_pizzas_from_json(
+        region: str,
+        secret_key: int
+):
+    if secret_key != 52:
+        raise HTTPException(status_code=status.HTTP_403_FORBIDDEN)
+
+    for pizza in get_data_from_json():
+        redis_client = get_redis()
+        redis_client.rpush(region, str(pizza.model_dump()))
+
+    return HTTPException(status_code=status.HTTP_201_CREATED)

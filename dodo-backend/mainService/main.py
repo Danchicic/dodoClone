@@ -1,10 +1,31 @@
+from contextlib import asynccontextmanager
+
 from fastapi import FastAPI
 import uvicorn
+import logging
 from starlette.middleware.cors import CORSMiddleware
 
 from modules.mainPage.routes import router
+from redis_utils import init_redis, close_redis
 
-app = FastAPI()
+
+@asynccontextmanager
+async def lifespan(app: FastAPI):
+    logging.basicConfig(
+        level=logging.DEBUG,
+        format="%(asctime)s - %(levelname)s - %(name)s - %(message)s",
+    )
+    init_redis()
+    yield
+    close_redis()
+
+
+app = FastAPI(
+    lifespan=lifespan,
+    swagger_ui_parameters={
+        "displayRequestDuration": True,  # Показать длительность запросов
+    }
+)
 
 app.include_router(router)
 app.add_middleware(
