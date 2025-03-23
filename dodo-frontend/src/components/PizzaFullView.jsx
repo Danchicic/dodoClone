@@ -1,36 +1,53 @@
-import React, {useState} from 'react';
+import React, {useEffect, useState} from 'react';
 import ModalFade from "./ModalFade.jsx";
 import {capitalize} from "./utils.js";
+import {createPortal} from "react-dom";
+import {useDispatch, useSelector} from "react-redux";
+import RadioButtonGroup from "./RadioButtonGroup.jsx";
+import Button from "./UI/Button.jsx";
 
 const PizzaFullView = () => {
-    const pizzaInfo = {
-        "costs": [
-            549, 819, 999
-        ],
-        "picture_server_path": "string",
-        "title": "string",
-        "weights": [410, 570, 770],
-        "ingredients": [
-            "string",
-            "string",
-            "string",
-            "string",
-            "string"
-        ]
-    };
+    const {isOpen, pizzaInfo} = useSelector((state) => state.modal);
+    const dispatch = useDispatch();
+
+    const sizeOptions = [
+        {value: "25", label: "25 см"},
+        {value: "30", label: "30 см"},
+        {value: "35", label: "35 см"},
+    ];
+    const doughOptions = [
+        {"value": "fat", label: "Толстое"},
+        {"value": "thin", label: "Тонкое"}
+    ]
+
     const [pizzaSize, setPizzaSize] = useState(30);
     const [pizzaDough, setPizzaDough] = useState('Традиционное');
-    const [weight, setWeight] = useState(pizzaInfo.weights[1]);
-    const [cost, setCost] = useState(pizzaInfo.costs[1]);
+    const [weight, setWeight] = useState(null);
+    const [cost, setCost] = useState(null);
 
-    return (
-        <ModalFade classes="shadow-2xl w-7/10 rounded-2xl">
+    useEffect(() => {
+        if (pizzaInfo) {
+            setWeight(pizzaInfo.weights[1]);
+            setCost(pizzaInfo.costs[1]);
+        }
+    }, [pizzaInfo]);
+
+    if (!isOpen) return null;
+
+    function handleSizeChange() {
+    }
+
+    function handleDoughChange() {
+    }
+
+    return createPortal(
+        <ModalFade classes="justify-center shadow-2xl w-7/10 rounded-2xl">
             <div className="flex h-100">
                 <div className="w-full bg-white">
                     <img src={pizzaInfo.picture_server_path} alt=""/>
-
                 </div>
-                <div className="w-full bg-gray-100 inset-shadow-sm pt-10 pl-10">
+
+                <div className="w-full bg-gray-100 inset-shadow-sm pt-10 pl-10 pr-10">
                     <div className="text-lg font-bold">
                         {capitalize(pizzaInfo.title)}
                     </div>
@@ -40,38 +57,26 @@ const PizzaFullView = () => {
                     <div className="text-md font-middle">
                         {pizzaInfo.ingredients.join(', ')}
                     </div>
-                    <div className="button-sliders mb-50">
-                        <fieldset>
-                            <div className="flex gap-5">
-                                <div className="">
-                                    <input type="radio" id="25" value="25" name="drone"/>
-                                    <label htmlFor="25">25</label>
-                                </div>
-                                <div className="">
-                                    <input type="radio" id="30" value="30" name="drone"/>
-                                    <label htmlFor="30">30</label>
-                                </div>
-                                <div className="">
-                                    <input type="radio" id="35" value="35" name="drone"/>
-                                    <label htmlFor="35">35</label>
-                                </div>
-                            </div>
-
-                        </fieldset>
-                        <div className="dough-slider">
-
-                        </div>
+                    <div className="button-sliders flex gap-1 flex-col lg:mb-20">
+                        <RadioButtonGroup
+                            options={sizeOptions}
+                            onChange={handleSizeChange}
+                        />
+                        <RadioButtonGroup
+                            options={doughOptions}
+                            onChange={handleDoughChange}
+                        />
                     </div>
-                    <button
-                        className="px-5 py-2 bg-emerald-200 rounded-2xl">
-                        В корзину за {cost} р.
-                    </button>
+                    <div className="flex justify-self-center">
+                        <Button>
+                            В корзину за {cost} р.
+                        </Button>
+                    </div>
                 </div>
 
             </div>
-
-        </ModalFade>
-
+        </ModalFade>,
+        document.getElementById("pizzaModal")
     );
 };
 

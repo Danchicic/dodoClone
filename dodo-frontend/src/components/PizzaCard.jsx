@@ -1,8 +1,13 @@
 import React from 'react';
 import {capitalize} from "./utils.js";
+import {openModal} from "../redux/pizzaModalSlice.js";
+import {useDispatch} from "react-redux";
+import Button from "./UI/Button.jsx";
 
 
 const PizzaCard = ({pizzaInfo}) => {
+    const dispatch = useDispatch();
+    console.log(pizzaInfo);
     /*
     {
     "costs": [
@@ -16,35 +21,45 @@ const PizzaCard = ({pizzaInfo}) => {
     ]
   }
      */
-    pizzaInfo.ingredients[0] = capitalize(pizzaInfo.ingredients[0])
+    try {
+        pizzaInfo.ingredients[0] = capitalize(pizzaInfo.ingredients[0])
+    } catch (err) {
+
+    }
 
     return (
         <div
-            className="bg-white rounded-lg w-3/10 h-100 p-5"
+            className="bg-white rounded-lg w-10/10 p-5"
         >
-            <div className="w-10/10 h-7/10">
+            <div>
                 <img
                     className=""
                     src={pizzaInfo.picture_server_path} alt=""/>
             </div>
-
-            <div className="text-lg font-bold">
-                {pizzaInfo.title}
-            </div>
-            <div
-                className="font-light text-md"
-            >
-                {pizzaInfo.ingredients.join(", ")}
-            </div>
-            <div className="flex items-center h-19 justify-between">
-                <div className="font-bold text-lg">
-                    от {pizzaInfo.costs[0]} р.
+            <div className="flex flex-col justify-between">
+                <div className="">
+                    <div className="text-lg font-bold">
+                        {pizzaInfo.title}
+                    </div>
+                    <div
+                        className="font-light text-md"
+                    >
+                        {pizzaInfo.ingredients.join(", ")}
+                    </div>
                 </div>
-                <button
-                    className="transition delay-75 rounded-2xl bg-emerald-200 px-3 py-1 hover:bg-emerald-400 cursor-pointer "
-                >
-                    Выбрать
-                </button>
+
+                <div className="flex items-center justify-between">
+                    <div className="font-bold text-lg">
+                        от {pizzaInfo.costs[0]} р.
+                    </div>
+                    <Button
+                        onClick={() => {
+                            dispatch(openModal(pizzaInfo))
+                        }}
+                    >
+                        Выбрать
+                    </Button>
+                </div>
             </div>
 
         </div>

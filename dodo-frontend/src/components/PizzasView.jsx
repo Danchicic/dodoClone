@@ -3,7 +3,7 @@ import PizzaCard from "./PizzaCard.jsx";
 
 const PizzasView = ({pizzas}) => {
     return (
-        <div className="flex gap-4">
+        <div className="grid gap-4 grid-cols-4">
             {pizzas.map((pizza, idx) => (
                 <PizzaCard pizzaInfo={pizza} key={idx}/>
             ))}
