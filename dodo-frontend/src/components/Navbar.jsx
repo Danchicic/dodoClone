@@ -1,11 +1,13 @@
 import React from 'react';
 import {Link} from "react-router-dom";
-import {useSelector} from "react-redux";
+import {useDispatch, useSelector} from "react-redux";
+import Button from "./UI/Button.jsx";
+import {openCart} from "../redux/cartSlice.js";
 
 
 const Navbar = () => {
     const region = useSelector((state) => state.region);
-
+    const dispatch = useDispatch();
     return (
         <div>
             <nav
@@ -18,6 +20,9 @@ const Navbar = () => {
                     />
                 </Link>
                 <Link to="/profile">Profile</Link>
+                <Button onClick={
+                    () => dispatch(openCart())
+                }>Корзина</Button>
             </nav>
         </div>
 
