@@ -3,6 +3,7 @@ from dotenv import load_dotenv
 import os
 import logging
 
+logger = logging.getLogger(__name__)
 load_dotenv()
 _redis_client = None
 REDIS_HOST = os.getenv("REDIS_HOST")
@@ -17,15 +18,20 @@ def init_redis():
         db=REDIS_DB,
         decode_responses=True,
     )
-    _redis_client.ping()
-    logging.info("Redis connected")
+    try:
+        _redis_client.ping()
+    except redis.exceptions.ConnectionError:
+        logger.info("Redis is not running, try to run via brew")
+        import subprocess
+        subprocess.run(["brew", "services", "start", "redis"])
+    logger.info("Redis connected")
 
 
 def close_redis():
     global _redis_client
     if _redis_client:
         _redis_client.close()
-        logging.warning("Redis disconnected")
+        logger.warning("Redis disconnected")
 
 
 def get_redis():
