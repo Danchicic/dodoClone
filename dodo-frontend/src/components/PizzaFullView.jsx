@@ -6,6 +6,7 @@ import {useDispatch, useSelector} from "react-redux";
 import RadioButtonGroup from "./RadioButtonGroup.jsx";
 import Button from "./UI/Button.jsx";
 import {closeModal} from "../redux/pizzaModalSlice.js";
+import {pushToCart} from "../redux/cartSlice.js";
 
 const PizzaFullView = () => {
     const {isOpen, pizzaInfo} = useSelector((state) => state.modal);
@@ -40,6 +41,16 @@ const PizzaFullView = () => {
     }
 
     function addToCart() {
+        dispatch(pushToCart(
+            {
+                title: pizzaInfo.title,
+                cost,
+                pizzaSize,
+                pizzaDough,
+                weight,
+                picture: pizzaInfo.picture_server_path,
+            }
+        ))
     }
 
     return createPortal(
