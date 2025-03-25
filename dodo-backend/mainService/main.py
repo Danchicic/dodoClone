@@ -27,7 +27,7 @@ app = FastAPI(
     }
 )
 
-app.include_router(router)
+app.include_router(router, prefix="/api/main")
 app.add_middleware(
     CORSMiddleware,
     allow_credentials=True,
