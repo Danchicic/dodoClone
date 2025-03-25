@@ -24,10 +24,11 @@ app = FastAPI(
     lifespan=lifespan,
     swagger_ui_parameters={
         "displayRequestDuration": True,  # Показать длительность запросов
-    }
+    },
+    root_path="/api/main",
 )
 
-app.include_router(router, prefix="/api/main")
+app.include_router(router)
 app.add_middleware(
     CORSMiddleware,
     allow_credentials=True,
