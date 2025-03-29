@@ -1,8 +1,8 @@
+import logging
 from contextlib import asynccontextmanager
 
-from fastapi import FastAPI
 import uvicorn
-import logging
+from fastapi import FastAPI
 from starlette.middleware.cors import CORSMiddleware
 
 from modules.restaurant.routes import router
@@ -12,13 +12,10 @@ from modules.restaurant.routes import router
 async def lifespan(app: FastAPI):
     logging.basicConfig(
         level=logging.INFO,
-        format="%(asctime)s - %(levelname)s - %(name)s - %(message)s",
+        format="%(asctime)s - %(levelname)s - %(name)s - %(message)s:%(lineno)d",
     )
 
-    # kafka_producer = KafkaProducer(f"{kafka_config.kafka_host}:{kafka_config.kafka_port}")
-    # await kafka_producer.start()
     yield
-    # await kafka_producer.stop()
 
 
 app = FastAPI(
