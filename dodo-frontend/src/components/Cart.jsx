@@ -5,15 +5,18 @@ import ModalFade from "./ModalFade.jsx";
 import CartPizzaInfo from "./CartPizzaInfo.jsx";
 import Button from "./UI/Button.jsx";
 import PizzaApi from "../api/PizzaApi.js";
-import {useNavigate} from "react-router-dom";
+import {useNavigate, useParams} from "react-router-dom";
 
 const Cart = ({showCart, setShowCart}) => {
+    const selectedRegion = useSelector((state) => state.region);
+
     const navigate = useNavigate();
     const {pizzas, cost, productsCount} = useSelector(
         (state) => state.cart
     );
+
     const createOrder = async () => {
-        PizzaApi.createOrder(pizzas).then(response => {
+        PizzaApi.createOrder(selectedRegion, pizzas).then(response => {
             if (response.status === 201) {
                 response.json().then(orderInfo => {
                     console.log("success")

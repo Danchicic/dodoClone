@@ -11,7 +11,7 @@ class PizzaApi {
             `${host}/main/regions`
         );
     }
-    static createOrder = (pizzas) => {
+    static createOrder = (region, pizzas) => {
         // pizzas is an array with pizza info, count and count * price
         const pizzasList = [];
         // extracting only pizza info
@@ -19,7 +19,7 @@ class PizzaApi {
             pizzasList.push(pizzaShortInfo.pizza);
         })
         return fetch(
-            `${host}/orders/create_order`,
+            `${host}/orders/create_order?region=${region}`,
             {
                 method: "POST",
                 headers: {
