@@ -35,7 +35,7 @@ async def create_order(
             'order_status': 1,
             'order_items': user_order.model_dump()['pizzas']
         }
-        print(order_info)
+
         # add order to db using repository
         user_order_id = await OrderRepository().add_one(order_info)
         if not user_order_id:
@@ -62,19 +62,10 @@ async def create_order(
         )
 
 
-@router.get("/abrakadabra")
-async def abrakadabra():
-    if not (order := await OrderRepository().get_one(id=1)):
-        raise HTTPException(
-            status_code=status.HTTP_404_NOT_FOUND,
-            detail=f"Order not found",
-        )
-    return order
-
-
 @router.get("/orders/{order_id}")
 @sse_handler()
 async def order_status_streaming(order_id: str):
+    return
     # check that order in processing, not done
     yield schemas.UpdatedStatus(new_status="Processing")
 
