@@ -6,6 +6,7 @@ import logging
 from starlette.middleware.cors import CORSMiddleware
 
 from core.config import load_kafka_config
+from database import init_models
 from modules.orders.routes import router
 from kafka_broker.producer import KafkaProducer
 
@@ -18,7 +19,7 @@ async def lifespan(app: FastAPI):
         level=logging.DEBUG,
         format="%(asctime)s - %(levelname)s - %(name)s - %(message)s",
     )
-
+    await init_models()
     kafka_producer = KafkaProducer(f"{kafka_config.kafka_host}:{kafka_config.kafka_port}")
     await kafka_producer.start()
     yield
