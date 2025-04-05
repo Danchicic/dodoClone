@@ -1,0 +1,29 @@
+services:
+  backend:
+    image: dodo_backend
+    build:
+      context:
+        ./
+    environment:
+      REDIS_HOST: nosqldb
+      REDIS_PORT: ${REDIS_PORT}
+    depends_on:
+      nosqldb:
+        condition: service_healthy
+    ports:
+      - "8000:8000"
+
+  nosqldb:
+    image: redis:7.2.7
+    healthcheck:
+      test: ["CMD", "redis-cli", "--raw", "incr", "ping"]
+      interval: 10s
+      timeout: 5s
+      retries: 5
+    volumes:
+      - redis_data:/data
+    ports:
+      - "6379:6379"
+
+volumes:
+  redis_data:

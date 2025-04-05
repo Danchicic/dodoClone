@@ -13,6 +13,7 @@ REDIS_DB = 0
 
 def init_redis():
     global _redis_client
+    logger.debug(f'redis creds:{REDIS_HOST}:{REDIS_PORT}')
     _redis_client = redis.Redis.from_url(
         f"redis://{REDIS_HOST}:{REDIS_PORT}",
         db=REDIS_DB,
@@ -22,8 +23,12 @@ def init_redis():
         _redis_client.ping()
     except redis.exceptions.ConnectionError:
         logger.info("Redis is not running, try to run via brew")
-        import subprocess
-        subprocess.run(["brew", "services", "start", "redis"])
+        try:
+            import subprocess
+            subprocess.run(["brew", "services", "start", "redis"])
+        except Exception:
+            logger.info("cant start redis via brew")
+            quit()
     logger.info("Redis connected")
 
 
