@@ -54,7 +54,7 @@ const RestaurantOrderInfo = ({removeOrder, socket, orderInfo}) => {
                 <ol>
                     {orderInfo['pizzas'].map((pizza, index) => (
                         <li key={index}>
-                            {index + 1}) {pizza.title}
+                            {index + 1}) {pizza.title} - размер: {pizza.pizzaSize} см - тесто: {pizza.pizzaDough}
                         </li>
                     ))}
                 </ol>

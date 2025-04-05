@@ -14,7 +14,7 @@ const RestaurantViewPage = () => {
         console.log("start ws onmessage")
         socket.onmessage = (event) => {
             let data = JSON.parse(event.data);
-            setOrders((prevOrders) => [...prevOrders, JSON.stringify(data)]);
+            setOrders((prevOrders) => [JSON.stringify(data), ...prevOrders]);
         }
         socket.onerror = (error) => {
             console.error("WebSocket error:", error);
