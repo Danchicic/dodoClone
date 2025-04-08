@@ -50,7 +50,7 @@ async def create_order(
             username=generate_random_name(),  # user.username
             user_phone_number=generate_random_phone_number()  # user.phone_number
         )
-        await kafka.send_message(region, user_full_info_order.model_dump())
+        await kafka.send_message(f"orders_{region}", user_full_info_order.model_dump())
         raise HTTPException(
             status_code=status.HTTP_201_CREATED, detail="Order was created successfully"
         )
