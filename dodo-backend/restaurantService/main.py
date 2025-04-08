@@ -26,12 +26,12 @@ app = FastAPI(
     root_path="/api/restaurants",
 )
 
-app.include_router(router, prefix='/api/restaurant/ws')
+app.include_router(router)
 app.add_middleware(
     CORSMiddleware,
     allow_credentials=True,
     allow_methods=["*"],
-    allow_origins=["*"]
+    allow_origins=["http://localhost:5173", "http://localhost:5174"]
 )
 
 if __name__ == '__main__':

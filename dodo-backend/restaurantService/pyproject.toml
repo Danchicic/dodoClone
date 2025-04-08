@@ -47,6 +47,7 @@ dependencies = [
     "websockets==15.0.1",
     "zope-event==5.0",
     "zope-interface==7.2",
+    "faststream[kafka]>=0.5.37",
 ]
 
 [tool.uv]
