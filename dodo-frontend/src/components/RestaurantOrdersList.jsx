@@ -1,7 +1,7 @@
 import React from 'react';
 import RestaurantOrderInfo from "./RestaurantOrderInfo.jsx";
 
-const RestaurantOrdersList = ({removeOrder, socket, orders, setOrders}) => {
+const RestaurantOrdersList = ({removeOrder, orders, setOrders}) => {
     return (
         <ul
             className="flex gap-2 flex-col mt-5"
@@ -10,7 +10,6 @@ const RestaurantOrdersList = ({removeOrder, socket, orders, setOrders}) => {
                 <li key={JSON.parse(order).id} className="list-none">
                     <RestaurantOrderInfo
                         removeOrder={removeOrder}
-                        socket={socket}
                         setOrders={setOrders}
                         orderInfo={JSON.parse(order)}/>
                 </li>

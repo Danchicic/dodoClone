@@ -1,15 +1,12 @@
-import React from 'react';
-import {useState, useEffect} from "react";
+import React, {useEffect, useState} from 'react';
 import {useParams} from "react-router-dom";
-import RestaurantOrderInfo from "../components/RestaurantOrderInfo.jsx";
 import RestaurantOrdersList from "../components/RestaurantOrdersList.jsx";
 
 const RestaurantViewPage = () => {
     const params = useParams();
     const [orders, setOrders] = useState([]);
-    const [restaurantSocket, setSocket] = useState(null);
     useEffect(() => {
-        const socket = new WebSocket(`ws://localhost:8002/api/restaurant/ws/orders/${params.region}`);
+        const socket = new WebSocket(`ws://localhost:8002/api/restaurants/ws/orders/${params.region}`);
 
         console.log("start ws onmessage")
         socket.onmessage = (event) => {
@@ -19,7 +16,6 @@ const RestaurantViewPage = () => {
         socket.onerror = (error) => {
             console.error("WebSocket error:", error);
         };
-        setSocket(socket);
         return () => {
             console.log("Closing WebSocket connection");
             socket.close();
@@ -35,7 +31,6 @@ const RestaurantViewPage = () => {
     return (
         <RestaurantOrdersList
             removeOrder={removeOrder}
-            socket={restaurantSocket}
             orders={orders}
             setOrders={setOrders}
         />

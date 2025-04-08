@@ -1,34 +1,42 @@
-import React from 'react';
-import {useState} from 'react';
+import React, {useState} from 'react';
 import Button from "./UI/Button.jsx";
+import {useParams} from "react-router-dom";
+import OrdersApi from "../api/OrdersApi.js";
 
-const RestaurantOrderInfo = ({removeOrder, socket, orderInfo}) => {
+const RestaurantOrderInfo = ({removeOrder, orderInfo}) => {
+    const dynamicUrlParams = useParams(state => state.region);
     const orderStates = {
         1: "Принять",
         2: "Передать в доставку",
     }
     const [orderStatus, setOrderStatus] = useState(1);
-    const setNewState = () => {
-        setOrderStatus(orderStatus + 1);
-        if (!socket) {
-            return;
-        }
+    const setNewState = async () => {
         switch (orderStatus) {
             case 1:
-                socket.send(
+                await OrdersApi.updateOrderStatus(
+                    orderInfo.id,
                     JSON.stringify({
-                        orderId: orderInfo.id,
-                        type: "accept"
+                        status: "accepted",
+                        region: dynamicUrlParams.region
                     })
-                )
+                ).then(response =>{
+                    if (response.status === 200) {
+                        setOrderStatus(orderStatus + 1);
+
+                    }
+
+                })
                 break;
             case 2:
-                socket.send(
+                await OrdersApi.updateOrderStatus(
+                    "",
                     JSON.stringify({
                         orderId: orderInfo.id,
-                        type: "move to delivery"
-                    })
+                        status: "move_to_delivery",
+                        region: dynamicUrlParams.region
+                    }),
                 )
+                setOrderStatus(orderStatus + 1);
                 removeOrder(orderInfo.id)
                 break;
 
